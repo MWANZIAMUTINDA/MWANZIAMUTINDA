@@ -1,151 +1,343 @@
 <div align="center">
 
-# Hi, I'm Sylvester Mutinda 👋
+# 👋 Hi, I'm Sylvester Mutinda
 
-### Full-Stack Developer • Software Engineer • IT Graduate • Product Builder
+### Full-Stack Developer • Software Engineer • IT Graduate • Problem Solver
 
-Building practical software, integrating systems, and turning real-world problems into working digital solutions.
+**Building practical software, integrating systems, and turning real-world problems into reliable digital solutions.**
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=MWANZIAMUTINDA\&label=Profile%20Views\&color=0e75b6\&style=flat)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-I'm **Sylvester Mutinda**, a Kenyan **Information Technology graduate from Technical University of Kenya (TUK)** with a strong interest in software engineering, full-stack development, systems design, and product delivery.
+I'm **Sylvester Mutinda**, an Information Technology graduate from the **Technical University of Kenya**, passionate about software engineering, full-stack development, systems architecture, mobile applications, AI, automation, and digital financial solutions.
 
-I enjoy building applications that solve practical problems — from **financial and SACCO systems** to **M-Pesa integrations, SMS platforms, ticketing systems, mobile applications, market management systems, and AI-powered tools**.
+I enjoy working across the entire software development lifecycle — from understanding a problem and designing the architecture to building the application, integrating APIs, testing the system, debugging issues, and deploying the final product.
 
-My work spans both frontend and backend development. I enjoy understanding the complete system rather than focusing on only one layer — from database design and APIs to authentication, business logic, integrations, and deployment.
+My experience includes building and working on:
 
-I believe in:
+* 🌐 Full-stack web applications
+* 📱 Android applications
+* 💳 M-Pesa payment integrations
+* 📩 SMS and communication platforms
+* 🤖 AI-assisted systems
+* 🎫 Ticketing and support systems
+* 🏦 SACCO and financial technology systems
+* 📊 Data analysis and machine learning
+* ⚽ Sports and club management systems
+* 🏪 Market and booking management systems
+* 🔐 Authentication and role-based systems
+* 🔌 REST APIs and third-party integrations
 
-* 🧠 Understanding the problem before writing code
-* 🏗️ Designing systems that are maintainable and scalable
-* 🔐 Building with security in mind
-* 🧪 Testing before declaring something complete
-* 🔍 Investigating existing systems before changing them
-* 🚀 Shipping practical solutions
-* 📚 Continuously learning new technologies
-* 🤝 Building software that solves real problems
-
----
-
-## 🏆 Selected Achievements
-
-I have built and contributed to systems across multiple domains, including:
-
-* ✅ End-to-end **full-stack applications** for business operations and member management
-* ✅ **M-Pesa payment integrations** and secure transaction workflows across market, SACCO, and member platforms
-* ✅ **Android mobile applications** for club and operations management
-* ✅ **AI-assisted tools** for duplicate detection, semantic comparison, and data processing
-* ✅ **Operational platforms** for SMS communication, ticketing, and system automation
-* ✅ **Business system design** covering booking flows, role-based access, reporting, and deployment readiness
-
-These achievements reflect a practical software engineering approach: understanding the workflow, building the right architecture, and delivering tools that people can use in real environments.
+I particularly enjoy taking **complex business requirements and turning them into simple, usable software.**
 
 ---
 
-## 🛠️ Tech Stack
+# 💻 My Development Stack
 
-### 💻 Languages
+## 🌐 Frontend Development
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
-
-### 🌐 Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 
-### ⚙️ Backend & Frameworks
+### Frontend areas
 
+* Responsive web interfaces
+* Component-based architecture
+* React applications
+* Next.js App Router
+* Server and client components
+* Forms and validation
+* Authentication flows
+* Dashboard interfaces
+* Data tables
+* Search and filtering
+* Pagination
+* Loading and error states
+* API integration
+* Responsive design
+* Accessibility-conscious UI
+
+---
+
+# ⚙️ Backend Development
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 
-### 🗄️ Databases & Backend Services
+### Backend areas
+
+* REST API development
+* Server-side business logic
+* Authentication
+* Authorization
+* Role-based access control
+* Database operations
+* API validation
+* Webhooks
+* Payment callbacks
+* Server actions
+* Background workflows
+* Error handling
+* Integration services
+* Business-rule implementation
+
+---
+
+# 📱 Mobile Development
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
+
+I build Android applications that communicate with backend APIs and handle real-world business workflows.
+
+### Mobile development experience
+
+* Android applications
+* Kotlin
+* REST API integration
+* Authentication
+* Secure token storage
+* Local state management
+* Loading states
+* Empty states
+* Error handling
+* Backend-driven screens
+* Real-device testing
+* Release configuration
+* API environment management
+
+---
+
+# 💳 Payments & Financial Integrations
+
+One of my areas of interest is building software around **digital payments and financial workflows**.
+
+### Technologies & concepts
+
+![M-Pesa](https://img.shields.io/badge/M--Pesa-00A651?style=for-the-badge)
+
+* Safaricom Daraja API
+* M-Pesa STK Push
+* Payment initiation
+* Transaction callbacks
+* Payment status tracking
+* Checkout workflows
+* Payment validation
+* Transaction reconciliation
+* Wallet/credit systems
+* SMS credit purchases
+* Payment failure handling
+* Sandbox/live environment separation
+
+I've worked on payment workflows where the application needs to coordinate:
+
+```text
+User
+  ↓
+Application
+  ↓
+Payment Request
+  ↓
+M-Pesa STK Push
+  ↓
+Customer Confirmation
+  ↓
+Daraja Callback
+  ↓
+Backend Validation
+  ↓
+Database Update
+  ↓
+Application Confirmation
+```
+
+---
+
+# 🤖 AI, Machine Learning & Automation
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai\&logoColor=white)
+
+I'm interested in applying AI where it provides a practical advantage rather than adding AI simply for the sake of it.
+
+### Areas I've explored
+
+* Machine learning
+* Computer vision
+* Image classification
+* AI-assisted ticket analysis
+* Semantic similarity
+* Duplicate detection
+* AI-powered search
+* Knowledge-base systems
+* AI chatbots
+* Automated classification
+* Data analysis
+* Intelligent workflows
+
+---
+
+# 🧠 AI Knowledge Bases & Chatbots
+
+I've worked with systems where AI needs access to structured product and technical knowledge.
+
+This includes:
+
+* Knowledge-base design
+* Product documentation
+* Internal documentation
+* Support content
+* AI chatbot context
+* Prompt engineering
+* User onboarding
+* Context-aware responses
+* Documentation organization
+* Separating knowledge for multiple products
+
+A major principle I follow is:
+
+> **Good AI systems need good information architecture.**
+
+---
+
+# 🗄️ Databases
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge\&logo=mariadb\&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
 
-### 📱 Mobile Development
+### Database experience
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
+* Relational database design
+* PostgreSQL
+* MySQL
+* MariaDB
+* Supabase
+* SQL queries
+* Database relationships
+* Constraints
+* Indexing
+* Transactions
+* Stored procedures / RPCs
+* Data validation
+* CRUD operations
+* Database-backed authentication
+* Data integrity
 
-I build mobile applications with a focus on:
+---
 
-* Android application architecture
-* REST API integration
+# 🔐 Security
+
+Security is something I consider throughout the application rather than only at the end.
+
+### Areas of interest
+
 * Authentication
-* Secure local storage
-* Loading, empty and error states
-* Backend-driven applications
-* Real-device testing
+* Authorization
+* Role-based permissions
+* Secure API endpoints
+* Token management
+* Environment variables
+* Secrets management
+* Database permissions
+* Input validation
+* Payment security
+* API access control
+* Secure mobile token storage
+* Webhook validation
+* Protection against unauthorized actions
 
-### 🤖 AI, Data & Automation
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
+# 🧪 Testing & Quality
 
-Areas I work with include:
+I don't consider a feature complete simply because it works once.
 
-* AI-assisted application development
-* Machine learning
-* Data analysis
-* Computer vision
-* Semantic search
-* AI-powered duplicate detection
-* Knowledge bases and AI chatbots
-* Automation
-* Intelligent ticket classification
-* Data processing and analysis
+I also look at:
 
-### 💳 Integrations & APIs
+* Unit tests
+* Integration tests
+* API testing
+* Regression testing
+* Type checking
+* Linting
+* Edge cases
+* Error handling
+* Authentication boundaries
+* Permission boundaries
+* Payment failure scenarios
+* Database consistency
 
-I have experience working with systems involving:
+My preferred workflow is:
 
-* **M-Pesa / Safaricom Daraja**
-* STK Push
-* Payment callbacks
-* SMS platforms
-* Brevo
-* REST APIs
-* Webhooks
-* Authentication APIs
-* Third-party integrations
-* Supabase APIs
+```text
+Understand
+    ↓
+Inspect
+    ↓
+Design
+    ↓
+Implement
+    ↓
+Test
+    ↓
+Review
+    ↓
+Fix
+    ↓
+Deploy
+```
 
-### 🔐 Systems & Security
+---
 
-My IT background also covers:
+# 🔍 Development Philosophy
 
-* Cybersecurity fundamentals
-* Authentication & authorization
-* Role-based access control
-* Secure credential storage
-* API security
-* Database security
-* Networking
-* Systems analysis and design
-* Information systems management
-* Secure payment workflows
+I follow an **inspect-first** approach when working with existing systems.
 
-### 🚀 DevOps & Tools
+Before modifying a project, I try to understand:
+
+```text
+Existing Architecture
+        ↓
+Routes & APIs
+        ↓
+Database
+        ↓
+Authentication
+        ↓
+Business Rules
+        ↓
+Existing Tests
+        ↓
+Current User Flow
+        ↓
+Required Change
+```
+
+Then I try to make the **smallest safe change** that solves the actual problem.
+
+This helps avoid breaking existing functionality and makes changes easier to review.
+
+---
+
+# 🔧 Tools & Development Environment
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
@@ -153,50 +345,77 @@ My IT background also covers:
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
 ![Coolify](https://img.shields.io/badge/Coolify-6C47FF?style=for-the-badge\&logo=coolify\&logoColor=white)
 
-* Git & GitHub
-* Branch-based development
-* Pull requests
-* Code reviews
+### Development tools
+
+* Git
+* GitHub
+* GitHub Pull Requests
 * Docker
 * Coolify
 * Vercel
-* Environment configuration
-* Deployment
+* VS Code
+* Android Studio
+* XAMPP
+* Postman
+* PowerShell
+* Linux environments
 * Local development environments
-* Debugging and testing
 
 ---
 
-## 🚀 Projects
+# 🌎 Deployment & Infrastructure
 
-### 💳 Muthurwa Market Smart Stall Booking System
+I've worked with applications that require:
 
-A market management platform designed to streamline **stall booking and payment processes**.
+* Environment-specific configuration
+* Development/staging/production separation
+* Dockerized applications
+* Cloud deployment
+* API configuration
+* Database configuration
+* Production environment variables
+* Build configuration
+* Mobile release configuration
+* Deployment troubleshooting
 
-**Technologies:**
+---
 
-`Laravel` `PHP` `MariaDB` `MySQL` `M-Pesa` `JavaScript`
+# 🚀 Featured Projects
 
-Features include:
+## 🏦 Muthurwa Market Smart Stall Booking System
+
+A digital market management platform designed to simplify stall booking and payment.
+
+**Stack**
+
+`Laravel` `PHP` `MariaDB` `JavaScript` `M-Pesa`
+
+### Features
 
 * Stall management
-* Online stall booking
+* Stall availability
+* Online booking
 * Booking validation
-* M-Pesa payment integration
-* Minimum 24-hour booking rules
-* Database-driven market operations
-* User and administrative workflows
+* Minimum 24-hour booking
+* M-Pesa integration
+* Payment tracking
+* Administrative workflows
+* Database-driven operations
 
 ---
 
-### 📱 Beijing FC Management System
+## 📱 Beijing FC Management System
 
-A football club management Android application designed to manage the operations of a football club.
+An Android-based football club management platform.
 
-**Areas covered:**
+**Stack**
+
+`Android` `Kotlin` `REST API` `Laravel` `M-Pesa`
+
+### Features
 
 * Player management
-* Club contributions
+* Contributions
 * M-Pesa payments
 * Match management
 * Player availability
@@ -205,197 +424,249 @@ A football club management Android application designed to manage the operations
 * Expenses
 * Club operations
 
-**Technologies:**
-
-`Android` `Kotlin` `REST APIs` `Laravel` `M-Pesa`
-
 ---
 
-### 📩 Wakandi SMS / Member Management Platform
+## 📩 Wakandi SMS & Member Management Platform
 
-A full-stack platform for managing members and sending SMS communications.
+A full-stack member management and SMS communication system.
 
-**Technologies:**
+**Stack**
 
 `Next.js` `React` `TypeScript` `Supabase` `PostgreSQL` `Tailwind CSS` `Brevo`
 
-Areas I've worked on include:
+### Features
 
 * Member management
-* SMS broadcasting
 * Role-based access
-* SMS credit management
-* M-Pesa top-ups
-* Daraja integration
+* SMS broadcasting
+* SMS credits
+* Credit purchases
+* M-Pesa payments
 * STK Push
 * Payment callbacks
-* Brevo chatbot integration
-* Knowledge-base development
-* Product onboarding
-* Application routing
-* Database workflows
+* Brevo chatbot
+* Product knowledge base
+* User onboarding
+* Search
+* Pagination
+* Business workflows
 
 ---
 
-### 🎫 Ticket Duplicate Detection System
+## 🎫 AI-Assisted Ticket Duplicate Detection
 
-An intelligent duplicate-ticket detection system designed to identify potentially related support requests.
+A system designed to identify potentially duplicate or related support tickets.
 
-Work includes:
+### Areas
 
-* Duplicate detection
 * Semantic similarity
-* Cross-customer comparisons
-* AI-assisted verification
 * Ticket ranking
-* Duplicate submission guards
+* AI verification
+* Cross-customer detection
+* Duplicate submission protection
 * Feature flags
 * API integration
-* Test coverage
+* Automated tests
 
-Technologies include:
+**Stack**
 
-`TypeScript` `AI APIs` `REST APIs` `GitHub` `PostgreSQL`
+`TypeScript` `AI APIs` `REST APIs` `GitHub`
 
 ---
 
-### 🏙️ Nairobi Garbage Detection System
+## 🏙️ Nairobi Garbage Detection System
 
-A computer-vision project focused on identifying garbage categories using machine learning.
+A machine-learning project focused on identifying garbage categories from images.
 
-**Technologies:**
+**Stack**
 
-`Python` `Machine Learning` `Computer Vision` `MobileNetV2`
+`Python` `MobileNetV2` `Computer Vision` `Machine Learning`
 
-The project involved:
+### Work involved
 
-* Image classification
 * Dataset preparation
+* Image preprocessing
 * Model training
 * Validation
-* Accuracy analysis
-* Computer-vision experimentation
+* Classification
+* Accuracy evaluation
+* Model experimentation
 
 ---
 
-### 🏦 SACCO Health Check System
+## 🏦 SACCO Health Check System
 
-A system concept focused on analyzing SACCO information and identifying potential operational and financial health indicators.
+A data-driven system concept for analyzing SACCO operations and identifying important financial and operational indicators.
 
-Areas include:
+### Areas
 
 * Data collection
 * Data analysis
-* Financial indicators
-* SACCO assessment
-* Reporting
+* Health indicators
 * Automated checks
+* Reporting
+* Financial assessment
 
 ---
 
-## 🧠 What I Like Building
-
-```text
-Full-Stack Applications
-        ↓
-APIs & Integrations
-        ↓
-Payments & Financial Systems
-        ↓
-AI & Automation
-        ↓
-Mobile Applications
-        ↓
-Data-Driven Systems
-        ↓
-Real-World Problem Solving
-```
-
-I am particularly interested in projects involving:
-
-* 💰 FinTech
-* 🏦 SACCO & financial systems
-* 💳 Digital payments
-* 📱 Mobile applications
-* 🤖 Artificial intelligence
-* 📊 Data analysis
-* 🔐 Cybersecurity
-* 🌐 Web applications
-* ⚽ Sports management systems
-* 🏢 Business management systems
-* 📡 Communication and SMS platforms
-
----
-
-## 🧰 Development Approach
-
-I prefer an **inspect-first** approach when working on existing systems.
-
-Before changing code, I try to understand:
-
-1. How the existing system works
-2. The current architecture
-3. Existing database structures
-4. API contracts
-5. Authentication and authorization
-6. Existing business rules
-7. Existing tests
-8. Potential side effects
-9. Deployment requirements
-
-Then I make the smallest practical change required to solve the problem while preserving existing functionality.
-
----
-
-## 📚 Currently Growing In
-
-* Advanced full-stack architecture
-* AI-assisted software engineering
-* Mobile application development
-* Cloud deployment
-* Payment integrations
-* System security
-* Database design
-* API architecture
-* Machine learning
-* Production software engineering
-
----
-
-## 📊 GitHub Stats
+# 📊 What I Build
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+| Area             | What I Work On                 |
+| ---------------- | ------------------------------ |
+| 🌐 Web           | Full-stack applications        |
+| 📱 Mobile        | Android applications           |
+| 💳 FinTech       | M-Pesa & payment systems       |
+| 🤖 AI            | AI-assisted applications       |
+| 📊 Data          | Analysis & machine learning    |
+| 🏦 Finance       | SACCO & financial systems      |
+| 📩 Communication | SMS & notification platforms   |
+| 🔌 APIs          | REST APIs & integrations       |
+| 🔐 Security      | Authentication & authorization |
+| ⚽ Sports         | Club & team management systems |
 
 </div>
 
 ---
 
-## 🌱 Beyond Code
+# 📚 Currently Learning & Improving
 
-I'm interested in technology, football, continuous learning, and building solutions that can have practical impact.
+I'm continuously improving my skills in:
 
-⚽ Football fan
-💻 Software builder
-📚 Continuous learner
-🌍 Kenyan developer
-🚀 Problem solver
+* Advanced software architecture
+* Scalable backend systems
+* AI-assisted development
+* Machine learning
+* Mobile architecture
+* Cloud deployment
+* API design
+* Database optimization
+* Cybersecurity
+* System design
+* Production engineering
+* DevOps
 
 ---
 
-## 🤝 Let's Connect
+# 💡 How I Approach Problems
 
-I'm interested in collaborating on software projects involving:
+I like breaking complicated problems into smaller systems.
 
-**Full-Stack Development • FinTech • AI • Mobile Apps • APIs • Automation • Data • Open Source**
+```text
+Problem
+   │
+   ▼
+Understand Requirements
+   │
+   ▼
+Inspect Existing System
+   │
+   ▼
+Design Solution
+   │
+   ▼
+Build
+   │
+   ▼
+Integrate
+   │
+   ▼
+Test
+   │
+   ▼
+Review
+   │
+   ▼
+Deploy
+   │
+   ▼
+Monitor & Improve
+```
+
+---
+
+# 📈 GitHub Statistics
 
 <div align="center">
 
-### Building practical software. Learning every day. 🚀
+<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="49%" />
+
+</div>
+
+---
+
+# 🏆 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=MWANZIAMUTINDA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MWANZIAMUTINDA&theme=tokyo-night&hide_border=true" width="100%"/>
+
+</div>
+
+---
+
+# ⚽ Beyond Technology
+
+When I'm not coding, I'm interested in:
+
+* ⚽ Football
+* 🏃 Personal development
+* 📚 Learning new technologies
+* 🌍 Technology and innovation
+* 💡 Building side projects
+* 🤝 Collaborating with other developers
+
+---
+
+# 🎯 My Goals
+
+```text
+Become a stronger software engineer
+             ↓
+Build production-ready systems
+             ↓
+Master system architecture
+             ↓
+Build intelligent applications
+             ↓
+Create technology with real-world impact
+```
+
+---
+
+# 🤝 Open to Collaboration
+
+I'm interested in collaborating on projects involving:
+
+**Full-Stack Development • FinTech • AI • Mobile Apps • APIs • Automation • Data • Open Source • Business Systems**
+
+If you're building something interesting, feel free to connect.
+
+---
+
+<div align="center">
+
+## 🚀 Build. Learn. Improve. Repeat.
+
+### Turning ideas into working software.
+
+<br>
+
+**Made with ❤️ and lots of code by Sylvester Mutinda**
 
 </div>
