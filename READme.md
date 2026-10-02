@@ -12,11 +12,11 @@ Building practical software, integrating systems, and turning real-world problem
 
 ## 👨‍💻 About Me
 
-I'm **Sylvester Mutinda**, a Kenyan **Information Technology graduate from Technical University of Kenya (TUK)** with a strong interest in software engineering, full-stack development, systems design, automation, and emerging AI technologies.
+I'm **Sylvester Mutinda**, a Kenyan **Information Technology graduate from Technical University of Kenya (TUK)** with a strong interest in software engineering, full-stack development, systems design, and product delivery.
 
-I enjoy building applications that solve practical problems — from **financial and SACCO systems** to **M-Pesa integrations, SMS platforms, ticketing systems, mobile applications, market management systems, data analysis, and AI-powered solutions**.
+I enjoy building applications that solve practical problems — from **financial and SACCO systems** to **M-Pesa integrations, SMS platforms, ticketing systems, mobile applications, market management systems, and AI-powered tools**.
 
-My work spans both frontend and backend development. I enjoy understanding the complete system rather than focusing on only one layer — from database design and APIs to authentication, business logic, user interfaces, integrations, deployment, testing, and maintenance.
+My work spans both frontend and backend development. I enjoy understanding the complete system rather than focusing on only one layer — from database design and APIs to authentication, business logic, integrations, and deployment.
 
 I believe in:
 
@@ -28,6 +28,21 @@ I believe in:
 * 🚀 Shipping practical solutions
 * 📚 Continuously learning new technologies
 * 🤝 Building software that solves real problems
+
+---
+
+## 🏆 Selected Achievements
+
+I have built and contributed to systems across multiple domains, including:
+
+* ✅ End-to-end **full-stack applications** for business operations and member management
+* ✅ **M-Pesa payment integrations** and secure transaction workflows across market, SACCO, and member platforms
+* ✅ **Android mobile applications** for club and operations management
+* ✅ **AI-assisted tools** for duplicate detection, semantic comparison, and data processing
+* ✅ **Operational platforms** for SMS communication, ticketing, and system automation
+* ✅ **Business system design** covering booking flows, role-based access, reporting, and deployment readiness
+
+These achievements reflect a practical software engineering approach: understanding the workflow, building the right architecture, and delivering tools that people can use in real environments.
 
 ---
 
