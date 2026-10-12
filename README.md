@@ -8,10 +8,10 @@
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20Views&color=0e75b6&style=flat-square)
-![GitHub followers](https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636)
-![GitHub Stars](https://img.shields.io/github/stars/MWANZIAMUTINDA?label=Total%20Stars&style=flat-square&color=e3b341)
-![GitHub Forks](https://github.com/MWANZIAMUTINDA?tab=achievements)
+[![Profile Views](https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20Views&color=0e75b6&style=flat-square)](https://github.com/MWANZIAMUTINDA)
+[![GitHub followers](https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636)](https://github.com/MWANZIAMUTINDA?tab=followers)
+[![GitHub Stars](https://img.shields.io/github/stars/MWANZIAMUTINDA?label=Total%20Stars&style=flat-square&color=e3b341)](https://github.com/MWANZIAMUTINDA?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMWANZIAMUTINDA&query=%24.public_repos&label=Public%20Repos&style=flat-square&color=0969da)](https://github.com/MWANZIAMUTINDA?tab=repositories)
 
 </div>
 
@@ -43,35 +43,35 @@ I thrive across the full software lifecycle — from architectural planning and 
 <div align="center">
 
 ### 1️⃣ Profile Statistics Overview
-<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" alt="GitHub streak" />
 
 <br>
 
-### 2️⃣ Most Used Languages & Tech Breakdown
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MWANZIAMUTINDA&theme=tokyonight&utcOffset=3" width="49%" />
+### 2️⃣ Most Used Languages & Productive Time
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="49%" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MWANZIAMUTINDA&theme=tokyonight&utcOffset=3" width="49%" alt="Productive time" />
 
 <br>
 
 ### 3️⃣ Profile Achievements & Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=MWANZIAMUTINDA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" width="100%" />
+<img src="https://github-trophies.vercel.app/?username=MWANZIAMUTINDA&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" width="100%" alt="GitHub trophies" />
 
 <br>
 
-### 4️⃣ Comprehensive Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MWANZIAMUTINDA&theme=tokyo-night&hide_border=true" width="100%"/>
+### 4️⃣ Contribution Activity
+<img src="https://ghchart.rshah.org/0e75b6/MWANZIAMUTINDA" width="100%" alt="Contribution chart" />
 
 <br>
 
-### 5️⃣ Code Commit & Language Commit Frequency
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MWANZIAMUTINDA&theme=tokyonight" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MWANZIAMUTINDA&theme=tokyonight" width="49%" />
+### 5️⃣ Repositories & Commits by Language
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MWANZIAMUTINDA&theme=tokyonight" width="49%" alt="Repos per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MWANZIAMUTINDA&theme=tokyonight" width="49%" alt="Most commit language" />
 
 <br>
 
-### 6️⃣ Yearly Activity Breakdown & WakaTime Coding Metric
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MWANZIAMUTINDA&theme=tokyonight" width="100%" />
+### 6️⃣ Profile Details & Yearly Contributions
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MWANZIAMUTINDA&theme=tokyonight" width="100%" alt="Profile details" />
 
 </div>
 
@@ -120,7 +120,7 @@ I thrive across the full software lifecycle — from architectural planning and 
 
 # 🚀 Featured Projects
 
-## 🏦 Muthurwa Market Smart Stall Booking System
+## 🏦 [Muthurwa Market Smart Stall Booking System](https://github.com/MWANZIAMUTINDA/MUTHURWA_MARKET_SMART_STALL_BOOKING-SYSTEM)
 
 A digital market management platform built to simplify real-time stall reservation, automated payments, and administrative oversight.
 
@@ -148,19 +148,21 @@ Automated semantic similarity analysis tool built to flag duplicate support requ
 - **Stack:** `TypeScript` `OpenAI API` `REST APIs` `Node.js`
 - **Highlights:** Vector similarity comparison, threshold ranking, automated tagging, and cross-customer duplicate protection.
 
-## 🏙️ Geo-AI Illegal Garbage Detection Engine
+## 🏙️ [Geo-AI Illegal Garbage Detection Engine](https://github.com/MWANZIAMUTINDA/nairobi_garbage_detection_system)
 
 A machine-learning and computer vision tool that classifies municipal waste directly from images to assist clean-up workflows.
 
 - **Stack:** `Python` `MobileNetV2` `Flask` `Leaflet.js` `OpenCV`
 - **Highlights:** Fine-tuned MobileNetV2 classification model, geospatial mapping integration, and categorization accuracy evaluation.
 
-## 🏦 SACCO Health Check System
+## 🏦 [SACCO Health Check System](https://github.com/MWANZIAMUTINDA/SACCO-Health-Check-Automated-Financial-Diagnostic)
 
 An analytics dashboard that evaluates SACCO operations, liquidity indicators, and diagnostic rules.
 
 - **Stack:** `React` `TypeScript` `Tailwind CSS` `REST APIs`
 - **Highlights:** 46-point diagnostic framework, plain-language executive summary generator, and automated ratio verification.
+
+---
 
 # 📊 Specialized Expertise Overview
 
@@ -170,13 +172,14 @@ An analytics dashboard that evaluates SACCO operations, liquidity indicators, an
 | **📱 Mobile Engineering**    | Kotlin, Android SDK, Retrofit       | Offline state, Secure Token Storage, Live APIs |
 | **💳 Payment Systems**       | Safaricom Daraja, M-Pesa API        | STK Push, Callback Webhooks, Reconciliations   |
 | **🤖 AI & Machine Learning** | Python, MobileNetV2, Gemini, OpenAI | Computer vision, AI Chatbots, Knowledge Bases  |
-| **🗄️ Relational Data**      | PostgreSQL, MySQL, Supabase         | Complex Schema, Stored Procedures, Indexing    |
+| **🗄️ Relational Data**       | PostgreSQL, MySQL, Supabase         | Complex Schema, Stored Procedures, Indexing    |
 | **🔐 Systems Security**      | JWT, OAuth, Role-Based Access       | Webhook validation, Environment Security       |
+
+---
 
 # 💡 System Engineering Philosophy
 
-Plaintext
-```arduino
+```text
   ┌─────────────────┐
   │  1. Understand  │ ──► Analyze business requirements and domain model
   └─────────────────┘
@@ -200,8 +203,9 @@ Plaintext
   ┌─────────────────┐
   │  5. Deploy & UI │ ──► CI/CD integration, production release, and monitoring
   └─────────────────┘
-
 ```
+
+---
 
 # ⚽ Beyond Code
 
@@ -212,10 +216,11 @@ When I'm not writing software or building digital solutions, I enjoy:
 - 📚 **Continuous Learning:** Exploring distributed systems, AI agent frameworks, and system optimization.
 - 🤝 **Community & Tech:** Mentoring peer developers and contributing to open-source software projects.
 
+---
+
 # 🎯 Engineering Objectives
 
-Plaintext
-```sql
+```text
 Develop High-Performance Software
               │
               ▼
@@ -226,8 +231,9 @@ Architect Scalable Distributed Systems
               │
               ▼
 Build Applied AI Applications with Real-World Value
-
 ```
+
+---
 
 # 🤝 Let's Connect & Collaborate
 
@@ -235,6 +241,13 @@ I am open to full-stack engineering roles, FinTech API integration projects, and
 
 **Full-Stack Development • FinTech • Android • AI Applications • Cloud Systems**
 
+[![GitHub](https://img.shields.io/badge/GitHub-MWANZIAMUTINDA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MWANZIAMUTINDA)
+[![Repositories](https://img.shields.io/badge/Browse-Repositories-0969da?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MWANZIAMUTINDA?tab=repositories)
+
+<div align="center">
+
 ## 🚀 Build. Learn. Improve. Repeat.
 
-**Designed with ❤️ by Sylvester Mutinda   &#x20;**
+**Designed with ❤️ by Sylvester Mutinda**
+
+</div>
