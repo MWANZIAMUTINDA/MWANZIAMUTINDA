@@ -43,7 +43,7 @@ I thrive across the full software lifecycle — from architectural planning and 
 <div align="center">
 
 ### 1️⃣ Profile Statistics Overview
-<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" />
 
 <br>
@@ -126,12 +126,137 @@ I build asynchronous payment integrations that manage end-to-end status workflow
 ┌──────────┐     Payment Request     ┌─────────────┐     STK Push      ┌─────────────────┐
 │   User   │ ──────────────────────> │  App Server │ ────────────────> │  M-Pesa Daraja  │
 └──────────┘                         └─────────────┘                   └─────────────────┘
-     ▲                                      │                                   │
-     │                                      ▼                                   │ Customer
-     │                                🔐 Security Token                         ▼ PIN
-     │                                      │                           ┌─────────────────┐
-     │                                      ▼                           │ User Smartphone │
-     │ Application                  ┌──────────────┐   Callback Payload └─────────────────┘
-     │ Confirmation                 │ DB State     │ <──────────────────────────┘
-     └───────────────────────────── │ Verification │
-                                    └──────────────┘
+&#x20;    ▲                                      │                                   │
+&#x20;    │                                      ▼                                   │ Customer
+&#x20;    │                                🔐 Security Token                         ▼ PIN
+&#x20;    │                                      │                           ┌─────────────────┐
+&#x20;    │                                      ▼                           │ User Smartphone │
+&#x20;    │ Application                  ┌──────────────┐   Callback Payload └─────────────────┘
+&#x20;    │ Confirmation                 │ DB State     │ <──────────────────────────┘
+&#x20;    └───────────────────────────── │ Verification │
+&#x20;                                   └──────────────┘
+
+
+
+
+
+# 🚀 Featured Projects
+
+## 🏦 Muthurwa Market Smart Stall Booking System
+
+A digital market management platform built to simplify real-time stall reservation, automated payments, and administrative oversight.
+
+- **Stack:** `Laravel` `PHP` `MariaDB` `JavaScript` `M-Pesa`
+- **Highlights:** Live stall availability tracking, 24-hour minimum duration policy enforcement, M-Pesa STK Push callbacks, and administrative dashboards.
+
+## 📱 Beijing FC Management System
+
+An Android-based football club operations and financial tracking application.
+
+- **Stack:** `Android` `Kotlin` `REST API` `Laravel` `M-Pesa`
+- **Highlights:** Squad roster handling, match availability polling, fine/contribution collection via M-Pesa, automated ledger updates, and league standings.
+
+## 📩 Wakandi SMS & Member Management Platform
+
+Full-stack communication and subscription system designed for organized groups and SACCOs.
+
+- **Stack:** `Next.js` `React` `TypeScript` `Supabase` `PostgreSQL` `Tailwind CSS` `Brevo`
+- **Highlights:** Multi-role access control, bulk SMS broadcasting engine, instant top-ups, transaction logging, and embedded support chatbot.
+
+## 🎫 AI Ticket Duplicate Detection Engine
+
+Automated semantic similarity analysis tool built to flag duplicate support requests before agent queue assignment.
+
+- **Stack:** `TypeScript` `OpenAI API` `REST APIs` `Node.js`
+- **Highlights:** Vector similarity comparison, threshold ranking, automated tagging, and cross-customer duplicate protection.
+
+## 🏙️ Geo-AI Illegal Garbage Detection Engine
+
+A machine-learning and computer vision tool that classifies municipal waste directly from images to assist clean-up workflows.
+
+- **Stack:** `Python` `MobileNetV2` `Flask` `Leaflet.js` `OpenCV`
+- **Highlights:** Fine-tuned MobileNetV2 classification model, geospatial mapping integration, and categorization accuracy evaluation.
+
+## 🏦 SACCO Health Check System
+
+An analytics dashboard that evaluates SACCO operations, liquidity indicators, and diagnostic rules.
+
+- **Stack:** `React` `TypeScript` `Tailwind CSS` `REST APIs`
+- **Highlights:** 46-point diagnostic framework, plain-language executive summary generator, and automated ratio verification.
+
+# 📊 Specialized Expertise Overview
+
+| **Technical Area**           | **Primary Stack & Tools**           | **Implementation Highlights**                  |
+| ---------------------------- | ----------------------------------- | ---------------------------------------------- |
+| **🌐 Full-Stack Web**        | Next.js, React, Laravel, Node.js    | Responsive UI, Server Actions, REST APIs, RBAC |
+| **📱 Mobile Engineering**    | Kotlin, Android SDK, Retrofit       | Offline state, Secure Token Storage, Live APIs |
+| **💳 Payment Systems**       | Safaricom Daraja, M-Pesa API        | STK Push, Callback Webhooks, Reconciliations   |
+| **🤖 AI & Machine Learning** | Python, MobileNetV2, Gemini, OpenAI | Computer vision, AI Chatbots, Knowledge Bases  |
+| **🗄️ Relational Data**      | PostgreSQL, MySQL, Supabase         | Complex Schema, Stored Procedures, Indexing    |
+| **🔐 Systems Security**      | JWT, OAuth, Role-Based Access       | Webhook validation, Environment Security       |
+
+# 💡 System Engineering Philosophy
+
+Plaintext
+```arduino
+  ┌─────────────────┐
+  │  1. Understand  │ ──► Analyze business requirements and domain model
+  └─────────────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │   2. Inspect    │ ──► Review existing codebase, APIs, and data integrity
+  └─────────────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │    3. Design    │ ──► Draft minimal safe architecture changes
+  └─────────────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │ 4. Build & Test │ ──► Write clean code, run unit tests, and evaluate edge cases
+  └─────────────────┘
+           │
+           ▼
+  ┌─────────────────┐
+  │  5. Deploy & UI │ ──► CI/CD integration, production release, and monitoring
+  └─────────────────┘
+
+```
+
+# ⚽ Beyond Code
+
+When I'm not writing software or building digital solutions, I enjoy:
+
+- ⚽ **Football & Sports Data:** Analyzing match tactics and sports management analytics.
+- 👟 **Streetwear & Sneaker Styling:** Fashion aesthetics, Jordan colorways, and cap pairings.
+- 📚 **Continuous Learning:** Exploring distributed systems, AI agent frameworks, and system optimization.
+- 🤝 **Community & Tech:** Mentoring peer developers and contributing to open-source software projects.
+
+# 🎯 Engineering Objectives
+
+Plaintext
+```sql
+Develop High-Performance Software
+              │
+              ▼
+Integrate Secure Financial Infrastructure
+              │
+              ▼
+Architect Scalable Distributed Systems
+              │
+              ▼
+Build Applied AI Applications with Real-World Value
+
+```
+
+# 🤝 Let's Connect & Collaborate
+
+I am open to full-stack engineering roles, FinTech API integration projects, and AI automation collaborations.
+
+**Full-Stack Development • FinTech • Android • AI Applications • Cloud Systems**
+
+## 🚀 Build. Learn. Improve. Repeat.
+
+**Designed with ❤️ by Sylvester Mutinda   &#x20;**
