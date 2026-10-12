@@ -11,7 +11,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20Views&color=0e75b6&style=flat-square)
 ![GitHub followers](https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636)
 ![GitHub Stars](https://img.shields.io/github/stars/MWANZIAMUTINDA?label=Total%20Stars&style=flat-square&color=e3b341)
-![GitHub Forks](https://img.shields.io/github/forks/MWANZIAMUTINDA?label=Total%20Forks&style=flat-square&color=0969da)
+![GitHub Forks](https://github.com/MWANZIAMUTINDA?tab=achievements)
 
 </div>
 
