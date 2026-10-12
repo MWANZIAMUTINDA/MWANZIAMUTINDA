@@ -248,6 +248,6 @@ I am open to full-stack engineering roles, FinTech API integration projects, and
 
 ## 🚀 Build. Learn. Improve. Repeat.
 
-**Designed with ❤️ by Sylvester Mutinda**
+**Designed with ❤️ by Sylvester Mutindaa**
 
 </div>
