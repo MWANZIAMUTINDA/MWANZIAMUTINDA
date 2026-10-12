@@ -118,28 +118,6 @@ I thrive across the full software lifecycle — from architectural planning and 
 
 ---
 
-# 💳 FinTech Workflow Architecture
-
-I build asynchronous payment integrations that manage end-to-end status workflows, network retries, and callback security.
-
-```text
-┌──────────┐     Payment Request     ┌─────────────┐     STK Push      ┌─────────────────┐
-│   User   │ ──────────────────────> │  App Server │ ────────────────> │  M-Pesa Daraja  │
-└──────────┘                         └─────────────┘                   └─────────────────┘
-&#x20;    ▲                                      │                                   │
-&#x20;    │                                      ▼                                   │ Customer
-&#x20;    │                                🔐 Security Token                         ▼ PIN
-&#x20;    │                                      │                           ┌─────────────────┐
-&#x20;    │                                      ▼                           │ User Smartphone │
-&#x20;    │ Application                  ┌──────────────┐   Callback Payload └─────────────────┘
-&#x20;    │ Confirmation                 │ DB State     │ <──────────────────────────┘
-&#x20;    └───────────────────────────── │ Verification │
-&#x20;                                   └──────────────┘
-
-
-
-
-
 # 🚀 Featured Projects
 
 ## 🏦 Muthurwa Market Smart Stall Booking System
