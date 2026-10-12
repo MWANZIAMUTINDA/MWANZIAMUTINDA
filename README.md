@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Sylvester Mutinda
+# Hi, I'm Sylvester Mutinda
 
 ### Full-Stack Developer • Software Engineer • IT Graduate • System Architect
 
@@ -248,6 +248,6 @@ I am open to full-stack engineering roles, FinTech API integration projects, and
 
 ## 🚀 Build. Learn. Improve. Repeat.
 
-**Designed with ❤️ by Sylvester Mutindaa**
+**Designed with ❤️ by Sylvester Mutinda**
 
 </div>
