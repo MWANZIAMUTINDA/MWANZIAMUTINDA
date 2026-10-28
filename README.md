@@ -114,24 +114,22 @@ A payment isn't done when the STK Push is sent. It's done when the money is matc
 
 ```mermaid
 sequenceDiagram
-    autonumber
-    actor U as Customer
+    participant U as Customer
     participant A as App server
-    participant D as M-Pesa Daraja
-    participant DB as Database
-    U->>A: Choose a bundle and confirm the phone number
-    A->>DB: Record a pending payment
-    A->>D: STK Push request
-    D-->>U: PIN prompt on the phone
-    U->>D: Enters PIN
+    participant M as M-Pesa Daraja
+    participant S as Database
+    U->>A: Choose a bundle and confirm the number
+    A->>S: Record a pending payment
+    A->>M: STK Push request
+    M-->>U: PIN prompt on the phone
+    U->>M: Enter PIN
     alt Callback arrives
-        D-->>A: Signed callback
-        A->>A: Verify the callback and the amount
-        A->>DB: Mark paid and add credit, exactly once
+        M-->>A: Callback with the result
+        A->>S: Check the amount, mark paid, add credit once
     else Callback is lost
-        A->>D: STK status query
-        D-->>A: Final result
-        A->>DB: Recover the payment
+        A->>M: STK status query
+        M-->>A: Final result
+        A->>S: Recover the payment
     end
     A-->>U: Receipt with a masked reference
 ```
@@ -141,7 +139,7 @@ sequenceDiagram
 ## 📊 GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats" height="170"/>
   <img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true&border_radius=12" alt="Contribution streak" height="170"/>
 </p>
 <p align="center">
