@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Muthurwa Smart Stalls</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffa657" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffa657" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="230" rx="16" fill="url(#bg)"/>
+  <rect width="420" height="230" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="419" height="229" rx="15.5" fill="none" stroke="#30363d"/>
+  <rect x="0" y="22" width="4" height="40" rx="2" fill="#ffa657"/>
+  <circle cx="46" cy="44" r="20" fill="#ffa657" fill-opacity="0.18" stroke="#ffa657" stroke-opacity="0.6"/>
+  <text x="46" y="50" text-anchor="middle" font-size="16" font-weight="800" fill="#ffa657">MM</text>
+  <text x="78" y="38" font-size="11" font-weight="700" letter-spacing="1.2" fill="#8b949e">CIVIC TECH · NAIROBI COUNTY</text>
+  <text x="78" y="58" font-size="19" font-weight="800" fill="#f0f6fc">Muthurwa Smart Stalls</text>
+  <rect x="312" y="14" width="92" height="20" rx="10" fill="#ffa657"/>
+  <text x="358" y="28" text-anchor="middle" font-size="11" font-weight="700" fill="#0d1117">Open source</text>
+  <text x="26" y="98" font-size="13.5" fill="#c9d1d9">Digital revenue collection for Muthurwa Market:</text>
+  <text x="26" y="118" font-size="13.5" fill="#c9d1d9">live stall booking, M-Pesa payments recorded</text>
+  <text x="26" y="138" font-size="13.5" fill="#c9d1d9">automatically and dashboards for the county.</text>
+  <rect x="26" y="182" width="64" height="22" rx="11" fill="#ffa657" fill-opacity="0.14" stroke="#ffa657" stroke-opacity="0.45"/><text x="58" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffa657">Laravel</text><rect x="98" y="182" width="64" height="22" rx="11" fill="#ffa657" fill-opacity="0.14" stroke="#ffa657" stroke-opacity="0.45"/><text x="130" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffa657">MariaDB</text><rect x="170" y="182" width="58" height="22" rx="11" fill="#ffa657" fill-opacity="0.14" stroke="#ffa657" stroke-opacity="0.45"/><text x="199" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffa657">M-Pesa</text><rect x="236" y="182" width="84" height="22" rx="11" fill="#ffa657" fill-opacity="0.14" stroke="#ffa657" stroke-opacity="0.45"/><text x="278" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffa657">JavaScript</text>
+</svg>

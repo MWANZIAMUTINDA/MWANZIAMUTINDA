@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Beijing FC</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#56d4dd" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#56d4dd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="230" rx="16" fill="url(#bg)"/>
+  <rect width="420" height="230" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="419" height="229" rx="15.5" fill="none" stroke="#30363d"/>
+  <rect x="0" y="22" width="4" height="40" rx="2" fill="#56d4dd"/>
+  <circle cx="46" cy="44" r="20" fill="#56d4dd" fill-opacity="0.18" stroke="#56d4dd" stroke-opacity="0.6"/>
+  <text x="46" y="50" text-anchor="middle" font-size="12" font-weight="800" fill="#56d4dd">BFC</text>
+  <text x="78" y="38" font-size="11" font-weight="700" letter-spacing="1.2" fill="#8b949e">PERSONAL · ANDROID + LARAVEL</text>
+  <text x="78" y="58" font-size="19" font-weight="800" fill="#f0f6fc">Beijing FC</text>
+  <rect x="344" y="14" width="60" height="20" rx="10" fill="#56d4dd"/>
+  <text x="374" y="28" text-anchor="middle" font-size="11" font-weight="700" fill="#0d1117">Active</text>
+  <text x="26" y="98" font-size="13.5" fill="#c9d1d9">Football club operations: M-Pesa contributions and</text>
+  <text x="26" y="118" font-size="13.5" fill="#c9d1d9">fines, match days and availability, team</text>
+  <text x="26" y="138" font-size="13.5" fill="#c9d1d9">generation, league standings and expenses.</text>
+  <rect x="26" y="182" width="58" height="22" rx="11" fill="#56d4dd" fill-opacity="0.14" stroke="#56d4dd" stroke-opacity="0.45"/><text x="55" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#56d4dd">Kotlin</text><rect x="92" y="182" width="64" height="22" rx="11" fill="#56d4dd" fill-opacity="0.14" stroke="#56d4dd" stroke-opacity="0.45"/><text x="124" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#56d4dd">Android</text><rect x="164" y="182" width="64" height="22" rx="11" fill="#56d4dd" fill-opacity="0.14" stroke="#56d4dd" stroke-opacity="0.45"/><text x="196" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#56d4dd">Laravel</text><rect x="236" y="182" width="58" height="22" rx="11" fill="#56d4dd" fill-opacity="0.14" stroke="#56d4dd" stroke-opacity="0.45"/><text x="265" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#56d4dd">M-Pesa</text>
+</svg>

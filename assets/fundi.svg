@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Kenyan Fundi Marketplace</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ff7b72" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ff7b72" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="230" rx="16" fill="url(#bg)"/>
+  <rect width="420" height="230" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="419" height="229" rx="15.5" fill="none" stroke="#30363d"/>
+  <rect x="0" y="22" width="4" height="40" rx="2" fill="#ff7b72"/>
+  <circle cx="46" cy="44" r="20" fill="#ff7b72" fill-opacity="0.18" stroke="#ff7b72" stroke-opacity="0.6"/>
+  <text x="46" y="50" text-anchor="middle" font-size="16" font-weight="800" fill="#ff7b72">FM</text>
+  <text x="78" y="38" font-size="11" font-weight="700" letter-spacing="1.2" fill="#8b949e">PERSONAL · MARKETPLACE</text>
+  <text x="78" y="58" font-size="19" font-weight="800" fill="#f0f6fc">Kenyan Fundi Marketplace</text>
+  <rect x="312" y="14" width="92" height="20" rx="10" fill="#ff7b72"/>
+  <text x="358" y="28" text-anchor="middle" font-size="11" font-weight="700" fill="#0d1117">In progress</text>
+  <text x="26" y="98" font-size="13.5" fill="#c9d1d9">Connects customers with verified plumbers,</text>
+  <text x="26" y="118" font-size="13.5" fill="#c9d1d9">electricians and builders: location search,</text>
+  <text x="26" y="138" font-size="13.5" fill="#c9d1d9">bookings, M-Pesa, messaging, ratings and job</text>
+  <text x="26" y="158" font-size="13.5" fill="#c9d1d9">tracking.</text>
+  <rect x="26" y="182" width="91" height="22" rx="11" fill="#ff7b72" fill-opacity="0.14" stroke="#ff7b72" stroke-opacity="0.45"/><text x="71.5" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ff7b72">Marketplace</text><rect x="125" y="182" width="84" height="22" rx="11" fill="#ff7b72" fill-opacity="0.14" stroke="#ff7b72" stroke-opacity="0.45"/><text x="167" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ff7b72">Geo search</text><rect x="217" y="182" width="58" height="22" rx="11" fill="#ff7b72" fill-opacity="0.14" stroke="#ff7b72" stroke-opacity="0.45"/><text x="246" y="197" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ff7b72">M-Pesa</text>
+</svg>

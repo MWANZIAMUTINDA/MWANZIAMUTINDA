@@ -1,188 +1,204 @@
-<div align="center">
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:3fb950&height=220&section=header&text=Sylvester%20Mutinda&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20engineer%20%C2%B7%20Fintech%20%C2%B7%20Applied%20AI%20%C2%B7%20Nairobi&descAlignY=58&descSize=18&animation=fadeIn" alt="Sylvester Mutinda" width="100%"/>
+</p>
 
-# Hi, I'm Sylvester Mutinda
+<p align="center">
+  <a href="https://github.com/MWANZIAMUTINDA">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Shipping+CRB+Lookup+at+Wakandi+Kenya;M-Pesa+payments+that+recover+on+their+own;Building+SOKA%3A+leagues+for+EA+FC+friends;Next.js+%C2%B7+Supabase+%C2%B7+Laravel+%C2%B7+Kotlin" alt="What I'm building" />
+  </a>
+</p>
 
-### Full-Stack Developer • Software Engineer • IT Graduate • System Architect
-
-**Building scalable software, integrating financial systems, and transforming complex real-world requirements into resilient digital solutions.**
-
-<br>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20Views&color=0e75b6&style=flat-square)](https://github.com/MWANZIAMUTINDA)
-[![GitHub followers](https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636)](https://github.com/MWANZIAMUTINDA?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/MWANZIAMUTINDA?label=Total%20Stars&style=flat-square&color=e3b341)](https://github.com/MWANZIAMUTINDA?tab=repositories)
-[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMWANZIAMUTINDA&query=%24.public_repos&label=Public%20Repos&style=flat-square&color=0969da)](https://github.com/MWANZIAMUTINDA?tab=repositories)
-
-</div>
-
----
-
-## 🚀 About Me
-
-I'm **Sylvester Mutinda**, an Information Technology graduate from the **Technical University of Kenya**, specializing in software engineering, full-stack web and mobile development, systems architecture, FinTech API integration, and applied AI automation.
-
-I thrive across the full software lifecycle — from architectural planning and database schema design to building robust backends, crafting responsive interfaces, setting up automated CI/CD pipelines, and maintaining production deployments.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20views&color=1f6feb&style=flat-square" alt="Profile views"/>
+  <a href="https://github.com/MWANZIAMUTINDA?tab=followers"><img src="https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636" alt="Followers"/></a>
+  <img src="https://img.shields.io/badge/Contributions%20this%20year-554-3fb950?style=flat-square" alt="554 contributions"/>
+  <img src="https://img.shields.io/badge/Based%20in-Nairobi%2C%20Kenya-e3b341?style=flat-square" alt="Nairobi, Kenya"/>
+  <img src="https://img.shields.io/badge/Now%20at-Wakandi%20Kenya-58a6ff?style=flat-square" alt="Wakandi Kenya"/>
+</p>
 
 ---
 
-### 💡 Core Focus & Capabilities
+## 👋 About me
 
-- 🌐 **Full-Stack Web Architectures:** Next.js, React, Node.js, Laravel, and Flask REST APIs.
-- 💳 **FinTech & Payments:** End-to-end Safaricom M-Pesa Daraja APIs, STK Push, Callbacks, and Reconciliation.
-- 📱 **Mobile Development:** Native Android using Kotlin, offline caching, and REST communication.
-- 🤖 **Applied AI & ML:** Computer vision models (MobileNetV2), semantic search, and context-aware LLM agents.
-- 📩 **Messaging Platforms:** Automated SMS broadcasting, credit management, and webhook pipelines.
-- 🏦 **Enterprise & Sacco Tech:** Governance dashboards, health diagnostic engines, and role-based access systems.
+I'm **Sylvester Mutinda**, a full-stack engineer at **Wakandi Kenya** and an IT graduate of the **Technical University of Kenya**. I build software for the way money actually moves in Kenya: SACCOs, chamas and churches, M-Pesa, SMS, and the credit checks that come before a loan.
 
-> *"Good software architecture turns complex domain logic into intuitive, predictable user experiences."*
+I work across the whole stack, from database schema and row-level security to the screens people use on a phone, and I ship with tests: the Jamii platform I work on runs more than 2,000 of them on every change.
+
+## 🔭 What I'm working on now · October 2026
+
+- 🏦 **CRB Lookup at Wakandi.** "Check before you lend" for SACCOs, MFIs and chamas: credit checks inside a loan application, results that expire, a full audit log, and an API that loan products call with keys.
+- 💳 **M-Pesa top-ups for Jamii Connect.** STK Push per bundle, confirming the number before the prompt, and recovering payments whose callback never arrived.
+- 🤖 **Support chatbot and knowledge base.** A Brevo chat that onboards new customers, answering from a knowledge base written against the live app.
+- ⚽ **SOKA**, my own app for EA SPORTS FC friends' leagues. Sprint 1 starts on 2 November 2026.
+- 🚗 **Mandai**, a transparent car-import platform for Kenya.
 
 ---
 
-# 📊 GitHub Analytics & Repository Metrics
+## 🛠️ Featured work
 
-<div align="center">
+### At Wakandi Kenya · the Jamii platform
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:0e75b6,100:70a5fd&height=220&section=header&text=Sylvester%20Mutinda&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20FinTech%20%E2%80%A2%20Applied%20AI&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Sylvester Mutinda — Full-Stack Developer, FinTech, Applied AI" />
+<p align="center">
+  <img src="assets/wakandi-crb.svg" alt="CRB Lookup: check before you lend" width="100%"/>
+</p>
+<p align="center">
+  <img src="assets/wakandi-payments.svg" alt="M-Pesa SMS top-ups" width="49%"/>
+  <img src="assets/wakandi-chatbot.svg" alt="Chatbot and knowledge base" width="49%"/>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=70A5FD&center=true&vCenter=true&width=640&lines=I+build+M-Pesa+payment+systems;Next.js+%2B+Laravel+%2B+Kotlin;Applied+AI+for+real-world+problems" alt="What I build" />
+### Personal and client projects
 
-<br>
+<p align="center">
+  <a href="https://github.com/MWANZIAMUTINDA/soka-web"><img src="assets/soka.svg" alt="SOKA" width="49%"/></a>
+  <img src="assets/mandai.svg" alt="Mandai" width="49%"/>
+</p>
+<p align="center">
+  <img src="assets/beijing-fc.svg" alt="Beijing FC" width="49%"/>
+  <img src="assets/fundi.svg" alt="Kenyan Fundi Marketplace" width="49%"/>
+</p>
+<p align="center">
+  <a href="https://github.com/MWANZIAMUTINDA/kyeteni-payment"><img src="assets/kyeteni.svg" alt="Kyeteni Pay" width="49%"/></a>
+  <a href="https://github.com/MWANZIAMUTINDA/SACCO-Health-Check-Automated-Financial-Diagnostic"><img src="assets/sacco-health.svg" alt="SACCO Health Check" width="49%"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/MWANZIAMUTINDA/nairobi_garbage_detection_system"><img src="assets/garbage.svg" alt="Nairobi Garbage Detection" width="49%"/></a>
+  <a href="https://github.com/MWANZIAMUTINDA/MUTHURWA_MARKET_SMART_STALL_BOOKING-SYSTEM"><img src="assets/muthurwa.svg" alt="Muthurwa Smart Stalls" width="49%"/></a>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-MWANZIAMUTINDA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MWANZIAMUTINDA)
-[![Repositories](https://img.shields.io/badge/Browse-Repositories-0e75b6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MWANZIAMUTINDA?tab=repositories)
-![Location](https://img.shields.io/badge/Nairobi-Kenya-1a1b27?style=for-the-badge)
+---
 
-</div>
+## 📈 My year in numbers
 
-## About me
-
-I'm an Information Technology graduate from the **Technical University of Kenya**, building software at **Wakandi Kenya**. I work across the whole lifecycle: schema design, backends, responsive interfaces, CI/CD and production deployments.
-
-- 💳 **FinTech & payments** — Safaricom M-Pesa Daraja, STK Push, callbacks and reconciliation
-- 🌐 **Full-stack web** — Next.js, React, Node.js, Laravel and Flask REST APIs
-- 📱 **Mobile** — native Android in Kotlin, with offline caching
-- 🤖 **Applied AI** — computer vision (MobileNetV2), semantic search and LLM agents
-
-> *"Good software architecture turns complex domain logic into intuitive, predictable user experiences."*
-
-## Tech stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css&theme=dark" alt="Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS" />
-
-<img src="https://skillicons.dev/icons?i=laravel,php,nodejs,python,flask,kotlin,androidstudio&theme=dark" alt="Laravel, PHP, Node.js, Python, Flask, Kotlin, Android" />
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,docker,git,github,vercel&theme=dark" alt="PostgreSQL, MySQL, Supabase, Docker, Git, GitHub, Vercel" />
-
-<br><br>
-
-![M-Pesa Daraja API](https://img.shields.io/badge/M--Pesa_Daraja_API-00A651?style=for-the-badge)
-![Coolify](https://img.shields.io/badge/Coolify-6C47FF?style=for-the-badge&logo=coolify&logoColor=white)
-
-</div>
-
-## Featured projects
-
-<div align="center">
-
-<a href="https://github.com/MWANZIAMUTINDA/MUTHURWA_MARKET_SMART_STALL_BOOKING-SYSTEM"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MWANZIAMUTINDA&repo=MUTHURWA_MARKET_SMART_STALL_BOOKING-SYSTEM&theme=tokyonight&hide_border=true" width="49%" alt="Muthurwa Market Smart Stall Booking System" /></a>
-<a href="https://github.com/MWANZIAMUTINDA/kyeteni-payment"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MWANZIAMUTINDA&repo=kyeteni-payment&theme=tokyonight&hide_border=true" width="49%" alt="Kyeteni Payment" /></a>
-
-<a href="https://github.com/MWANZIAMUTINDA/nairobi_garbage_detection_system"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MWANZIAMUTINDA&repo=nairobi_garbage_detection_system&theme=tokyonight&hide_border=true" width="49%" alt="Nairobi Garbage Detection System" /></a>
-<a href="https://github.com/MWANZIAMUTINDA/SACCO-Health-Check-Automated-Financial-Diagnostic"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MWANZIAMUTINDA&repo=SACCO-Health-Check-Automated-Financial-Diagnostic&theme=tokyonight&hide_border=true" width="49%" alt="SACCO Health Check" /></a>
-
-</div>
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| 🏦 **[Muthurwa Market Stall Booking](https://github.com/MWANZIAMUTINDA/MUTHURWA_MARKET_SMART_STALL_BOOKING-SYSTEM)** | Real-time stall reservation with M-Pesa STK Push payments and admin dashboards | `Laravel` `MariaDB` `M-Pesa` |
-| 🏙️ **[Geo-AI Garbage Detection](https://github.com/MWANZIAMUTINDA/nairobi_garbage_detection_system)** | Classifies illegal dumping from images and maps the sites | `Python` `MobileNetV2` `Flask` `Leaflet.js` |
-| 🏦 **[SACCO Health Check](https://github.com/MWANZIAMUTINDA/SACCO-Health-Check-Automated-Financial-Diagnostic)** | 46-point diagnostic dashboard with plain-language executive summaries | `React` `TypeScript` `Tailwind CSS` |
-| 📩 **Wakandi SMS & Member Management** | Bulk SMS broadcasting, top-ups and multi-role access for SACCOs | `Next.js` `Supabase` `Brevo` |
-| 📱 **Beijing FC Management** | Android app for squad rosters, match availability and M-Pesa contributions | `Kotlin` `Laravel` `M-Pesa` |
-| 🎫 **AI Ticket Duplicate Detection** | Flags duplicate support requests by semantic similarity before queue assignment | `TypeScript` `OpenAI API` `Node.js` |
-
-## How I work
+**Contributions per month in 2026.** Most of my work is in private company repos, so the public graph shows less than this.
 
 ```mermaid
-flowchart LR
-    A["1 · Understand<br/>Requirements & domain model"] --> B["2 · Inspect<br/>Codebase, APIs, data integrity"]
-    B --> C["3 · Design<br/>Minimal, safe changes"]
-    C --> D["4 · Build & test<br/>Clean code, edge cases"]
-    D --> E["5 · Deploy<br/>CI/CD, release, monitoring"]
-
-    classDef step fill:#1a1b27,stroke:#70a5fd,stroke-width:2px,color:#ffffff
-    class A,B,C,D,E step
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'plotColorPalette': '#3fb950', 'backgroundColor': 'transparent'}}}}%%
+xychart-beta
+    title "GitHub contributions, 2026"
+    x-axis [Mar, Apr, May, Jun, Jul, Aug, Sep, Oct]
+    y-axis "Contributions" 0 --> 300
+    bar [9, 0, 0, 7, 43, 72, 150, 273]
 ```
 
-## GitHub activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&theme=tokyonight&hide_border=true" width="49%" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true" width="49%" alt="GitHub streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="49%" alt="Top languages" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MWANZIAMUTINDA&theme=tokyonight&utcOffset=3" width="49%" alt="Productive time" />
-
-<img src="https://ghchart.rshah.org/0e75b6/MWANZIAMUTINDA" width="100%" alt="Contribution chart" />
-
-</div>
-
-<details>
-<summary><b>Expertise in detail</b></summary>
-
-<br>
-
-| Technical area | Primary stack & tools | Implementation highlights |
-| --- | --- | --- |
-| **Full-stack web** | Next.js, React, Laravel, Node.js | Responsive UI, Server Actions, REST APIs, RBAC |
-| **Mobile engineering** | Kotlin, Android SDK, Retrofit | Offline state, secure token storage, live APIs |
-| **Payment systems** | Safaricom Daraja, M-Pesa API | STK Push, callback webhooks, reconciliations |
-| **AI & machine learning** | Python, MobileNetV2, Gemini, OpenAI | Computer vision, AI chatbots, knowledge bases |
-| **Relational data** | PostgreSQL, MySQL, Supabase | Complex schema, stored procedures, indexing |
-| **Systems security** | JWT, OAuth, role-based access | Webhook validation, environment security |
-
-</details>
-
-<details>
-<summary><b>Engineering objectives</b></summary>
-
-<br>
+**Where my Jamii commits went, September to October 2026**
 
 ```mermaid
-flowchart TD
-    A["High-performance software"] --> B["Secure financial infrastructure"]
-    B --> C["Scalable distributed systems"]
-    C --> D["Applied AI with real-world value"]
-
-    classDef step fill:#1a1b27,stroke:#70a5fd,stroke-width:2px,color:#ffffff
-    class A,B,C,D step
+%%{init: {'theme':'base', 'themeVariables': {'pie1':'#58a6ff', 'pie2':'#3fb950', 'pie3':'#d2a8ff', 'pie4':'#e3b341', 'pieStrokeColor':'#0d1117', 'pieOuterStrokeColor':'#30363d', 'pieSectionTextColor':'#0d1117', 'pieTitleTextSize':'18px'}}}%%
+pie showData
+    title Jamii commits by area
+    "CRB Lookup" : 19
+    "M-Pesa payments" : 13
+    "Chatbot & knowledge base" : 11
+    "Onboarding & referrals" : 5
 ```
 
-</details>
+**How 2026 went**
 
-<details>
-<summary><b>Beyond code</b></summary>
+```mermaid
+timeline
+    title 2026
+    March : Smart stall booking, first version
+    June : Muthurwa Market smart stalls : Skill Connect
+    July : Football ball tracking with computer vision
+    August : Joined Wakandi Kenya : Kyeteni Pay, QR M-Pesa receipts
+    September : SACCO Health Check : Nairobi garbage detection : Jamii M-Pesa top-ups and chatbot
+    October : CRB Lookup shipped : Beijing FC Android app : Mandai : SOKA planned
+```
 
-<br>
+---
 
-- ⚽ **Football & sports data** — match tactics and sports management analytics
-- 👟 **Streetwear & sneakers** — Jordan colorways and cap pairings
-- 📚 **Continuous learning** — distributed systems, AI agent frameworks and system optimization
-- 🤝 **Community** — mentoring peer developers and contributing to open source
+## 💳 How I build M-Pesa payments
 
-</details>
+A payment isn't done when the STK Push is sent. It's done when the money is matched to the right record, even if Safaricom's callback never comes.
 
-## Let's connect
+```mermaid
+sequenceDiagram
+    autonumber
+    actor U as Customer
+    participant A as App server
+    participant D as M-Pesa Daraja
+    participant DB as Database
+    U->>A: Choose a bundle and confirm the phone number
+    A->>DB: Record a pending payment
+    A->>D: STK Push request
+    D-->>U: PIN prompt on the phone
+    U->>D: Enters PIN
+    alt Callback arrives
+        D-->>A: Signed callback
+        A->>A: Verify the callback and the amount
+        A->>DB: Mark paid and add credit, exactly once
+    else Callback is lost
+        A->>D: STK status query
+        D-->>A: Final result
+        A->>DB: Recover the payment
+    end
+    A-->>U: Receipt with a masked reference
+```
 
-I'm open to full-stack engineering roles, FinTech API integration projects and AI automation collaborations.
+---
 
-<div align="center">
+## 📊 GitHub stats
 
-[![GitHub](https://img.shields.io/badge/GitHub-MWANZIAMUTINDA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MWANZIAMUTINDA)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats" height="170"/>
+  <img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true&border_radius=12" alt="Contribution streak" height="170"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages" height="170"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MWANZIAMUTINDA&theme=tokyonight&utcOffset=3" alt="Most productive time" height="170"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MWANZIAMUTINDA&theme=tokyonight" alt="Profile details" width="100%"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:70a5fd,50:0e75b6,100:1a1b27&height=120&section=footer" width="100%" alt="" />
+---
 
-</div>
+## 🧰 Tech stack
+
+<p align="center"><b>Frontend</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend"/>
+</p>
+<p align="center"><b>Backend</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,python,flask&theme=dark" alt="Backend"/>
+</p>
+<p align="center"><b>Mobile, data and AI</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,postgres,supabase,mysql,opencv&theme=dark" alt="Mobile, data and AI"/>
+</p>
+<p align="center"><b>Tools and delivery</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,linux,vscode,figma&theme=dark" alt="Tools"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/M--Pesa%20Daraja-00A651?style=for-the-badge" alt="M-Pesa Daraja"/>
+  <img src="https://img.shields.io/badge/Brevo-0B996E?style=for-the-badge" alt="Brevo"/>
+  <img src="https://img.shields.io/badge/Coolify-6C47FF?style=for-the-badge" alt="Coolify"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+</p>
+
+---
+
+## 🧭 How I work
+
+| Step | What it means |
+| --- | --- |
+| **Understand** | Learn the domain first: how a SACCO lends, how a church collects giving, how a chama tracks contributions. |
+| **Read before writing** | Check the existing code, data and patterns before adding anything new. |
+| **Small, tested steps** | Small pull requests, each one with tests, and row-level security checked in the database itself. |
+| **Ship and watch** | Deploy with Docker and Coolify, then check it works for real users. |
+
+## ⚽ Beyond code
+
+- ⚽ Football: I play, follow the tactics, and build tools for my club.
+- 👟 Streetwear and sneakers: Jordans and caps.
+- 📚 Learning: distributed systems and AI agents.
+
+---
+
+## 🤝 Let's work together
+
+I'm open to full-stack, fintech and payments work, and applied AI projects. The fastest way to reach me is a message here on GitHub.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:1f6feb,100:0d1117&height=120&section=footer&text=Build.%20Learn.%20Improve.%20Repeat.&fontSize=22&fontColor=ffffff&fontAlignY=70" alt="Build. Learn. Improve. Repeat." width="100%"/>
+</p>
