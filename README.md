@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MWANZIAMUTINDA&label=Profile%20views&color=1f6feb&style=flat-square" alt="Profile views"/>
   <a href="https://github.com/MWANZIAMUTINDA?tab=followers"><img src="https://img.shields.io/github/followers/MWANZIAMUTINDA?label=Followers&style=flat-square&color=238636" alt="Followers"/></a>
-  <img src="https://img.shields.io/badge/Contributions%20this%20year-554-3fb950?style=flat-square" alt="554 contributions"/>
+  <img src="https://img.shields.io/badge/Contributions%20this%20year-557-3fb950?style=flat-square" alt="557 contributions"/>
   <img src="https://img.shields.io/badge/Based%20in-Nairobi%2C%20Kenya-e3b341?style=flat-square" alt="Nairobi, Kenya"/>
   <img src="https://img.shields.io/badge/Now%20at-Wakandi%20Kenya-58a6ff?style=flat-square" alt="Wakandi Kenya"/>
 </p>
@@ -136,12 +136,14 @@ flowchart LR
 ## 📊 GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MWANZIAMUTINDA&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats" height="170"/>
-  <img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true&border_radius=12" alt="Contribution streak" height="170"/>
+  <img src="assets/stats.svg" alt="557 contributions, 48 pull requests (46 merged), 21 repositories, 62 active days, best day 43" width="100%"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MWANZIAMUTINDA&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages" height="170"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MWANZIAMUTINDA&theme=tokyonight&utcOffset=3" alt="Most productive time" height="170"/>
+  <img src="assets/languages.svg" alt="Languages I write" width="49%"/>
+  <img src="assets/weekdays.svg" alt="Contributions by weekday" width="49%"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=MWANZIAMUTINDA&theme=tokyonight&hide_border=true&border_radius=12" alt="Contribution streak" width="70%"/>
 </p>
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MWANZIAMUTINDA&theme=tokyonight" alt="Profile details" width="100%"/>

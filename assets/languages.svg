@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="250" viewBox="0 0 425 250" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>Languages I write</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#3178c6" stop-opacity="0.22"/><stop offset="1" stop-color="#3178c6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="425" height="250" rx="16" fill="url(#bg)"/>
+  <rect width="425" height="250" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="424" height="249" rx="15.5" fill="none" stroke="#30363d"/>
+  <text x="26" y="40" font-size="17" font-weight="800" fill="#f0f6fc">Languages I write</text>
+  <text x="399" y="40" text-anchor="end" font-size="11" fill="#8b949e">Private repos incl. · 28 Oct 2026</text>
+  <clipPath id="bar"><rect x="26" y="58" width="373" height="12" rx="6"/></clipPath>
+  <g clip-path="url(#bar)">
+  <rect x="26.0" y="58" width="103.3" height="12" fill="#f05340"/>
+  <rect x="129.3" y="58" width="92.5" height="12" fill="#3178c6"/>
+  <rect x="221.8" y="58" width="72.4" height="12" fill="#8892bf"/>
+  <rect x="294.2" y="58" width="55.2" height="12" fill="#a97bff"/>
+  <rect x="349.4" y="58" width="18.6" height="12" fill="#3572a5"/>
+  <rect x="368.0" y="58" width="15.7" height="12" fill="#336790"/>
+  <rect x="383.7" y="58" width="7.1" height="12" fill="#e34c26"/>
+  <rect x="390.8" y="58" width="7.8" height="12" fill="#f1e05a"/>
+  </g>
+  <circle cx="32" cy="94" r="6" fill="#f05340"/>
+  <text x="44" y="98" font-size="12.5" fill="#c9d1d9">Blade (Laravel views)</text>
+  <text x="199" y="98" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">27.7%</text>
+  <circle cx="232" cy="94" r="6" fill="#3178c6"/>
+  <text x="244" y="98" font-size="12.5" fill="#c9d1d9">TypeScript</text>
+  <text x="399" y="98" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">24.8%</text>
+  <circle cx="32" cy="126" r="6" fill="#8892bf"/>
+  <text x="44" y="130" font-size="12.5" fill="#c9d1d9">PHP</text>
+  <text x="199" y="130" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">19.4%</text>
+  <circle cx="232" cy="126" r="6" fill="#a97bff"/>
+  <text x="244" y="130" font-size="12.5" fill="#c9d1d9">Kotlin</text>
+  <text x="399" y="130" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">14.8%</text>
+  <circle cx="32" cy="158" r="6" fill="#3572a5"/>
+  <text x="44" y="162" font-size="12.5" fill="#c9d1d9">Python</text>
+  <text x="199" y="162" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">5.0%</text>
+  <circle cx="232" cy="158" r="6" fill="#336790"/>
+  <text x="244" y="162" font-size="12.5" fill="#c9d1d9">PL/pgSQL</text>
+  <text x="399" y="162" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">4.2%</text>
+  <circle cx="32" cy="190" r="6" fill="#e34c26"/>
+  <text x="44" y="194" font-size="12.5" fill="#c9d1d9">HTML</text>
+  <text x="199" y="194" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">1.9%</text>
+  <circle cx="232" cy="190" r="6" fill="#f1e05a"/>
+  <text x="244" y="194" font-size="12.5" fill="#c9d1d9">CSS &amp; JS</text>
+  <text x="399" y="194" text-anchor="end" font-size="12.5" font-weight="700" fill="#f0f6fc">2.1%</text>
+</svg>

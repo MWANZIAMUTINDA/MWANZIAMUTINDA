@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="170" viewBox="0 0 860 170" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <title>GitHub at a glance</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#3fb950" stop-opacity="0.22"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="860" height="170" rx="16" fill="url(#bg)"/>
+  <rect width="860" height="170" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="859" height="169" rx="15.5" fill="none" stroke="#30363d"/>
+  <text x="26" y="40" font-size="17" font-weight="800" fill="#f0f6fc">GitHub at a glance</text>
+  <text x="834" y="40" text-anchor="end" font-size="11" fill="#8b949e">Includes private repos · 28 Oct 2026</text>
+  <rect x="26" y="60" width="152" height="84" rx="12" fill="#3fb950" fill-opacity="0.08" stroke="#3fb950" stroke-opacity="0.35"/>
+  <text x="102" y="98" text-anchor="middle" font-size="30" font-weight="800" fill="#3fb950">557</text>
+  <text x="102" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f0f6fc">Contributions</text>
+  <text x="102" y="135" text-anchor="middle" font-size="11" fill="#8b949e">last 12 months</text>
+  <rect x="190" y="60" width="152" height="84" rx="12" fill="#58a6ff" fill-opacity="0.08" stroke="#58a6ff" stroke-opacity="0.35"/>
+  <text x="266" y="98" text-anchor="middle" font-size="30" font-weight="800" fill="#58a6ff">48</text>
+  <text x="266" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f0f6fc">Pull requests</text>
+  <text x="266" y="135" text-anchor="middle" font-size="11" fill="#8b949e">46 merged</text>
+  <rect x="354" y="60" width="152" height="84" rx="12" fill="#d2a8ff" fill-opacity="0.08" stroke="#d2a8ff" stroke-opacity="0.35"/>
+  <text x="430" y="98" text-anchor="middle" font-size="30" font-weight="800" fill="#d2a8ff">21</text>
+  <text x="430" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f0f6fc">Repositories</text>
+  <text x="430" y="135" text-anchor="middle" font-size="11" fill="#8b949e">7 private</text>
+  <rect x="518" y="60" width="152" height="84" rx="12" fill="#e3b341" fill-opacity="0.08" stroke="#e3b341" stroke-opacity="0.35"/>
+  <text x="594" y="98" text-anchor="middle" font-size="30" font-weight="800" fill="#e3b341">62</text>
+  <text x="594" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f0f6fc">Active days</text>
+  <text x="594" y="135" text-anchor="middle" font-size="11" fill="#8b949e">since March 2026</text>
+  <rect x="682" y="60" width="152" height="84" rx="12" fill="#f78166" fill-opacity="0.08" stroke="#f78166" stroke-opacity="0.35"/>
+  <text x="758" y="98" text-anchor="middle" font-size="30" font-weight="800" fill="#f78166">43</text>
+  <text x="758" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f0f6fc">Best day</text>
+  <text x="758" y="135" text-anchor="middle" font-size="11" fill="#8b949e">9 Oct 2026</text>
+</svg>
