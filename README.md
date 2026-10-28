@@ -113,25 +113,22 @@ timeline
 A payment isn't done when the STK Push is sent. It's done when the money is matched to the right record, even if Safaricom's callback never comes.
 
 ```mermaid
-sequenceDiagram
-    participant U as Customer
-    participant A as App server
-    participant M as M-Pesa Daraja
-    participant S as Database
-    U->>A: Choose a bundle and confirm the number
-    A->>S: Record a pending payment
-    A->>M: STK Push request
-    M-->>U: PIN prompt on the phone
-    U->>M: Enter PIN
-    alt Callback arrives
-        M-->>A: Callback with the result
-        A->>S: Check the amount, mark paid, add credit once
-    else Callback is lost
-        A->>M: STK status query
-        M-->>A: Final result
-        A->>S: Recover the payment
-    end
-    A-->>U: Receipt with a masked reference
+flowchart LR
+    A["📱 Customer picks a bundle<br/>and confirms the number"] --> B["🗄️ Pending payment<br/>recorded"]
+    B --> C["⚡ STK Push sent<br/>to M-Pesa"]
+    C --> D["🔐 Customer<br/>enters PIN"]
+    D --> E{"Callback<br/>arrived?"}
+    E -- "Yes" --> F["✅ Check the amount,<br/>mark paid, add credit once"]
+    E -- "No" --> G["🔎 STK status query"]
+    G --> F
+    F --> H["🧾 Receipt with a<br/>masked reference"]
+
+    classDef step fill:#161b22,stroke:#30363d,color:#f0f6fc
+    classDef good fill:#0f2e1a,stroke:#3fb950,color:#f0f6fc
+    classDef ask fill:#1f2a44,stroke:#58a6ff,color:#f0f6fc
+    class A,B,C,D,G step
+    class F,H good
+    class E ask
 ```
 
 ---
