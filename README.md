@@ -30,8 +30,6 @@ I work across the whole stack, from database schema and row-level security to th
 - 🏦 **CRB Lookup at Wakandi.** "Check before you lend" for SACCOs, MFIs and chamas: credit checks inside a loan application, results that expire, a full audit log, and an API that loan products call with keys.
 - 💳 **M-Pesa top-ups for Jamii Connect.** STK Push per bundle, confirming the number before the prompt, and recovering payments whose callback never arrived.
 - 🤖 **Support chatbot and knowledge base.** A Brevo chat that onboards new customers, answering from a knowledge base written against the live app.
-- ⚽ **SOKA**, my own app for EA SPORTS FC friends' leagues. Sprint 1 starts on 2 November 2026.
-- 🚗 **Mandai**, a transparent car-import platform for Kenya.
 
 ---
 
