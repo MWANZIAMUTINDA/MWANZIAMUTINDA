@@ -19,21 +19,21 @@
 
 ---
 
-## 👋 About me
+##  About me
 
 I'm **Sylvester Mutinda**, a full-stack engineer at **Wakandi Kenya** and an IT graduate of the **Technical University of Kenya**. I build software for the way money actually moves in Kenya: SACCOs, chamas and churches, M-Pesa, SMS, and the credit checks that come before a loan.
 
 I work across the whole stack, from database schema and row-level security to the screens people use on a phone, and I ship with tests: the Jamii platform I work on runs more than 2,000 of them on every change.
 
-## 🔭 What I'm working on now · October 2026
+##  What I'm working on now · October 2026
 
-- 🏦 **CRB Lookup at Wakandi.** "Check before you lend" for SACCOs, MFIs and chamas: credit checks inside a loan application, results that expire, a full audit log, and an API that loan products call with keys.
-- 💳 **M-Pesa top-ups for Jamii Connect.** STK Push per bundle, confirming the number before the prompt, and recovering payments whose callback never arrived.
-- 🤖 **Support chatbot and knowledge base.** A Brevo chat that onboards new customers, answering from a knowledge base written against the live app.
+-  **CRB Lookup at Wakandi.** "Check before you lend" for SACCOs, MFIs and chamas: credit checks inside a loan application, results that expire, a full audit log, and an API that loan products call with keys.
+-  **M-Pesa top-ups for Jamii Connect.** STK Push per bundle, confirming the number before the prompt, and recovering payments whose callback never arrived.
+-  **Support chatbot and knowledge base.** A Brevo chat that onboards new customers, answering from a knowledge base written against the live app.
 
 ---
 
-## 🛠️ Featured work
+##  Featured work
 
 ### At Wakandi Kenya · the Jamii platform
 
@@ -66,7 +66,7 @@ I work across the whole stack, from database schema and row-level security to th
 
 ---
 
-## 📈 My year in numbers
+##  My year in numbers
 
 **Contributions per month in 2026.** Most of my work is in private company repos, so the public graph shows less than this.
 
@@ -112,14 +112,14 @@ A payment isn't done when the STK Push is sent. It's done when the money is matc
 
 ```mermaid
 flowchart LR
-    A["📱 Customer picks a bundle<br/>and confirms the number"] --> B["🗄️ Pending payment<br/>recorded"]
-    B --> C["⚡ STK Push sent<br/>to M-Pesa"]
-    C --> D["🔐 Customer<br/>enters PIN"]
+    A[" Customer picks a bundle<br/>and confirms the number"] --> B[" Pending payment<br/>recorded"]
+    B --> C[" STK Push sent<br/>to M-Pesa"]
+    C --> D[" Customer<br/>enters PIN"]
     D --> E{"Callback<br/>arrived?"}
-    E -- "Yes" --> F["✅ Check the amount,<br/>mark paid, add credit once"]
-    E -- "No" --> G["🔎 STK status query"]
+    E -- "Yes" --> F[" Check the amount,<br/>mark paid, add credit once"]
+    E -- "No" --> G[" STK status query"]
     G --> F
-    F --> H["🧾 Receipt with a<br/>masked reference"]
+    F --> H[" Receipt with a<br/>masked reference"]
 
     classDef step fill:#161b22,stroke:#30363d,color:#f0f6fc
     classDef good fill:#0f2e1a,stroke:#3fb950,color:#f0f6fc
@@ -149,7 +149,7 @@ flowchart LR
 
 ---
 
-## 🧰 Tech stack
+## Tech stack
 
 <p align="center"><b>Frontend</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend"/>
@@ -173,7 +173,7 @@ flowchart LR
 
 ---
 
-## 🧭 How I work
+##  How I work
 
 | Step | What it means |
 | --- | --- |
@@ -182,7 +182,7 @@ flowchart LR
 | **Small, tested steps** | Small pull requests, each one with tests, and row-level security checked in the database itself. |
 | **Ship and watch** | Deploy with Docker and Coolify, then check it works for real users. |
 
-## ⚽ Beyond code
+##  Beyond code
 
 - ⚽ Football: I play, follow the tactics, and build tools for my club.
 - 👟 Streetwear and sneakers: Jordans and caps.
