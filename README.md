@@ -1,4 +1,7 @@
-# Sylvester Mutinda
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/header-dark.svg">
+  <img src="assets/cards/header-light.svg" alt="Sylvester Mutinda. Full-stack engineer at Wakandi Kenya, in Nairobi: software for SACCOs, chamas, M-Pesa and credit." width="100%">
+</picture>
 
 Full-stack engineer at **Wakandi Kenya**, in Nairobi. I build software for the way money actually moves in Kenya: SACCOs, chamas and churches, M-Pesa, SMS, and the credit checks that come before a loan.
 

@@ -1,0 +1,11 @@
+{
+  "name": "profile-readme-cards",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cards": "node scripts/build-cards.mjs"
+  },
+  "devDependencies": {
+    "subset-font": "2.4.0"
+  }
+}
