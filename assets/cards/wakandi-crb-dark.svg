@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <title>CRB Lookup: check before you lend</title>
+  <rect x="0.5" y="0.5" width="859" height="209" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="36" font-size="12" fill="#7d8590">Wakandi Kenya · Jamii platform</text>
+  <text x="24" y="62" font-size="18" font-weight="600" fill="#e6edf3">CRB Lookup: check before you lend</text>
+  <text x="24" y="92" font-size="13.5" fill="#9198a1">Credit-bureau checks for SACCOs, MFIs and chamas. Credit officers run a check inside a loan</text>
+  <text x="24" y="112" font-size="13.5" fill="#9198a1">application, results expire on a set retention period, every access is audited, and loan</text>
+  <text x="24" y="132" font-size="13.5" fill="#9198a1">products call it as a system through API keys.</text>
+  <line x1="24" y1="148" x2="836" y2="148" stroke="#30363d"/>
+  <text x="24" y="170" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#9198a1">Next.js 16 · TypeScript · Supabase · PostgreSQL RLS · REST API · Audit log</text>
+  <text x="24" y="192" font-size="12" fill="#7d8590">Status</text>
+  <line x1="76" y1="188.5" x2="717.6" y2="188.5" stroke="#484f58" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="0.01 4"/>
+  <text x="836" y="192" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#3fb950">Shipped Oct 2026</text>
+</svg>

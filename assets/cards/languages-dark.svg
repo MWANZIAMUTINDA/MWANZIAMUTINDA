@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="250" viewBox="0 0 425 250" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <title>Languages I write</title>
+  <rect x="0.5" y="0.5" width="424" height="249" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="36" font-size="15" font-weight="600" fill="#e6edf3">Languages I write</text>
+  <text x="401" y="36" text-anchor="end" font-size="11.5" fill="#7d8590">Including private repos</text>
+  <text x="24" y="66" font-size="12.5" fill="#9198a1">Blade (Laravel views)</text>
+  <rect x="190" y="58" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="58" width="160.0" height="6" rx="3" fill="#3fb950"/>
+  <text x="401" y="66" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">27.7%</text>
+  <text x="24" y="88" font-size="12.5" fill="#9198a1">TypeScript</text>
+  <rect x="190" y="80" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="80" width="143.2" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="88" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">24.8%</text>
+  <text x="24" y="110" font-size="12.5" fill="#9198a1">PHP</text>
+  <rect x="190" y="102" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="102" width="112.1" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="110" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">19.4%</text>
+  <text x="24" y="132" font-size="12.5" fill="#9198a1">Kotlin</text>
+  <rect x="190" y="124" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="124" width="85.5" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="132" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">14.8%</text>
+  <text x="24" y="154" font-size="12.5" fill="#9198a1">Python</text>
+  <rect x="190" y="146" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="146" width="28.9" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="154" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">5.0%</text>
+  <text x="24" y="176" font-size="12.5" fill="#9198a1">PL/pgSQL</text>
+  <rect x="190" y="168" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="168" width="24.3" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="176" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">4.2%</text>
+  <text x="24" y="198" font-size="12.5" fill="#9198a1">CSS and JS</text>
+  <rect x="190" y="190" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="190" width="12.1" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="198" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">2.1%</text>
+  <text x="24" y="220" font-size="12.5" fill="#9198a1">HTML</text>
+  <rect x="190" y="212" width="160" height="6" rx="3" fill="#21262d"/>
+  <rect x="190" y="212" width="11.0" height="6" rx="3" fill="#7d8590"/>
+  <text x="401" y="220" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#e6edf3">1.9%</text>
+</svg>

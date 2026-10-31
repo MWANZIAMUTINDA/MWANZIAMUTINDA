@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <title>Muthurwa Smart Stalls</title>
+  <rect x="0.5" y="0.5" width="419" height="229" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="36" font-size="12" fill="#7d8590">Civic tech · Nairobi County</text>
+  <text x="24" y="62" font-size="18" font-weight="600" fill="#e6edf3">Muthurwa Smart Stalls</text>
+  <text x="24" y="92" font-size="13.5" fill="#9198a1">Digital revenue collection for Muthurwa Market:</text>
+  <text x="24" y="112" font-size="13.5" fill="#9198a1">live stall booking, M-Pesa payments recorded</text>
+  <text x="24" y="132" font-size="13.5" fill="#9198a1">automatically, and dashboards for the county.</text>
+  <line x1="24" y1="168" x2="396" y2="168" stroke="#30363d"/>
+  <text x="24" y="190" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#9198a1">Laravel · MariaDB · M-Pesa · JavaScript</text>
+  <text x="24" y="212" font-size="12" fill="#7d8590">Status</text>
+  <line x1="76" y1="208.5" x2="312.1" y2="208.5" stroke="#484f58" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="0.01 4"/>
+  <text x="396" y="212" text-anchor="end" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#3fb950">Open source</text>
+</svg>
