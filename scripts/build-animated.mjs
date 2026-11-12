@@ -163,15 +163,15 @@ const clipFrames = () => {
 };
 
 // ---------------------------------------------------------------- the placeholder character
-// An original male character in a soft romcom-manga style, drawn around the
-// head centre (0,0): short tousled hair, big sparkly eyes, blush lines and a
+// An original Black male character in a soft romcom-manga style, drawn around
+// the head centre (0,0): deep brown skin, a short textured afro with faded sides, big sparkly eyes, blush lines and a
 // nervous sweat drop, sunglasses on the head, white zip hoodie over a yellow
 // tee. Replace with your own art any time.
 
 const P = {
-  skin: "#9a5b34",
-  skinShade: "#7c4526",
-  hair: "#15111d",
+  skin: "#5c3721",
+  skinShade: "#472a19",
+  hair: "#0f0c14",
   hoodie: "#f4f5f7",
   hoodieShade: "#cfd5de",
   tee: C.yellow,
@@ -196,11 +196,17 @@ function face({ wink = false } = {}) {
   const eyeR = wink
     ? `<path d="M6 8 Q13 1 20 8" fill="none" stroke="${P.ink}" stroke-width="2.8" stroke-linecap="round"/>`
     : mangaEye(13, blink);
-  // Short, tousled hair: a crown with pointed fringe locks, plus a few spikes on top.
-  const hair = `<path d="M-37 2 Q-42 -40 -10 -48 Q-4 -58 6 -50 Q22 -58 26 -46 Q42 -40 37 2
-      L32 -14 L26 -4 L20 -22 L12 -8 L4 -26 L-4 -10 L-12 -26 L-18 -8 L-26 -20 L-31 -4 Z" fill="${P.hair}"/>
-    <path d="M-12 -46 L-20 -60 L-4 -50 M8 -50 L14 -63 L20 -48" fill="${P.hair}" stroke="${P.hair}" stroke-width="5" stroke-linejoin="round"/>
-    <path d="M-20 -38 Q-10 -44 0 -40" fill="none" stroke="#3a3350" stroke-width="2" stroke-linecap="round"/>`;
+  // Short textured afro on top with faded sides and a crisp hairline.
+  const r = rng(7);
+  const curls = Array.from({ length: 70 }, () => {
+    const a = Math.PI * 1.05 + r() * Math.PI * 0.9;
+    const d = 8 + r() * 24;
+    return `<circle cx="${f(Math.cos(a) * d * 1.05)}" cy="${f(-30 + Math.sin(a) * d * 0.62)}" r="${f(2.5 + r() * 2.5)}" fill="#241f2e"/>`;
+  }).join("");
+  const hair = `<path d="M-33 -6 Q-34 -24 -30 -30 Q-40 -60 0 -62 Q40 -60 30 -30 Q34 -24 33 -6
+      Q30 -18 24 -22 Q0 -18 -24 -22 Q-30 -18 -33 -6 Z" fill="${P.hair}"/>
+    ${curls}
+    <path d="M-33 -6 Q-31 -16 -26 -21 L-26 -6 Z M33 -6 Q31 -16 26 -21 L26 -6 Z" fill="${P.hair}" opacity="0.55"/>`;
   const sweat = `<path d="M38 -10 Q42 -2 38 2 Q34 -2 38 -10 Z" fill="#bae6fd" stroke="#38bdf8" stroke-width="1">
       <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 6;0 0" keyTimes="0;0.6;0.9;1" dur="2.6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.85;1" dur="2.6s" repeatCount="indefinite"/></path>`;
@@ -217,10 +223,10 @@ function face({ wink = false } = {}) {
     </g>
     <path d="M-22 -9 L-6 -7 M6 -7 L22 -9" fill="none" stroke="${P.hair}" stroke-width="3.2" stroke-linecap="round"/>
     ${eyeL}${eyeR}
-    <path d="M-26 20 l3 -5 M-21 20 l3 -5 M-16 20 l3 -5 M14 20 l3 -5 M19 20 l3 -5 M24 20 l3 -5" stroke="${C.pink}" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+    <path d="M-26 20 l3 -5 M-21 20 l3 -5 M-16 20 l3 -5 M14 20 l3 -5 M19 20 l3 -5 M24 20 l3 -5" stroke="#e8795a" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
       <animate attributeName="opacity" values="0.5;0.95;0.5" dur="2.6s" repeatCount="indefinite"/></path>
-    <path d="M-1 14 l2 4" stroke="${P.skinShade}" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M-8 25 Q0 33 8 25 Q0 28 -8 25 Z" fill="#5b1f1f" stroke="${P.ink}" stroke-width="1.8" stroke-linejoin="round"/>`;
+    <path d="M-5 18 Q-6 13 -2 12 M5 18 Q6 13 2 12 M-4 19 Q0 21 4 19" fill="none" stroke="#2e1a0f" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M-8 25 Q0 33 8 25 Q0 28 -8 25 Z" fill="#3a1414" stroke="#2e1a0f" stroke-width="1.8" stroke-linejoin="round"/>`;
 }
 
 function torso(bottom) {
