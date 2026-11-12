@@ -163,8 +163,10 @@ const clipFrames = () => {
 };
 
 // ---------------------------------------------------------------- the placeholder character
-// Drawn around the head centre (0,0). Long dark hair, sunglasses on the head,
-// white zip hoodie over a yellow tee. Replace with your own art any time.
+// An original male character in a soft romcom-manga style, drawn around the
+// head centre (0,0): short tousled hair, big sparkly eyes, blush lines and a
+// nervous sweat drop, sunglasses on the head, white zip hoodie over a yellow
+// tee. Replace with your own art any time.
 
 const P = {
   skin: "#9a5b34",
@@ -178,31 +180,51 @@ const P = {
   jeansShade: "#172f70",
 };
 
+// Big manga eye: dark iris, two highlights, a lash line on top.
+function mangaEye(cx, blink) {
+  return `<g>
+      <ellipse cx="${cx}" cy="7" rx="6" ry="7.5" fill="${P.ink}">${blink}</ellipse>
+      <ellipse cx="${cx}" cy="9" rx="3.6" ry="4" fill="#3b2a52">${blink.replace('values="7.5;7.5;0.8;7.5"', 'values="4;4;0.4;4"')}</ellipse>
+      <circle cx="${cx + 2.2}" cy="3.8" r="2.1" fill="#fff"/><circle cx="${cx - 2.2}" cy="10.5" r="1" fill="#fff"/>
+      <path d="M${cx - 8} 0 Q${cx} -4 ${cx + 8} 0" fill="none" stroke="${P.ink}" stroke-width="2.6" stroke-linecap="round"/>
+    </g>`;
+}
+
 function face({ wink = false } = {}) {
-  const blink = `<animate attributeName="ry" values="5;5;0.6;5" keyTimes="0;0.93;0.96;1" dur="4.2s" repeatCount="indefinite"/>`;
-  const eyeL = `<ellipse cx="-12" cy="6" rx="4" ry="5" fill="${P.ink}">${blink}</ellipse><circle cx="-10.6" cy="4.2" r="1.3" fill="#fff"/>`;
+  const blink = `<animate attributeName="ry" values="7.5;7.5;0.8;7.5" keyTimes="0;0.93;0.96;1" dur="4.2s" repeatCount="indefinite"/>`;
+  const eyeL = mangaEye(-13, blink);
   const eyeR = wink
-    ? `<path d="M7 7 Q12 1 17 7" fill="none" stroke="${P.ink}" stroke-width="2.6" stroke-linecap="round"/>`
-    : `<ellipse cx="12" cy="6" rx="4" ry="5" fill="${P.ink}">${blink}</ellipse><circle cx="13.4" cy="4.2" r="1.3" fill="#fff"/>`;
+    ? `<path d="M6 8 Q13 1 20 8" fill="none" stroke="${P.ink}" stroke-width="2.8" stroke-linecap="round"/>`
+    : mangaEye(13, blink);
+  // Short, tousled hair: a crown with pointed fringe locks, plus a few spikes on top.
+  const hair = `<path d="M-37 2 Q-42 -40 -10 -48 Q-4 -58 6 -50 Q22 -58 26 -46 Q42 -40 37 2
+      L32 -14 L26 -4 L20 -22 L12 -8 L4 -26 L-4 -10 L-12 -26 L-18 -8 L-26 -20 L-31 -4 Z" fill="${P.hair}"/>
+    <path d="M-12 -46 L-20 -60 L-4 -50 M8 -50 L14 -63 L20 -48" fill="${P.hair}" stroke="${P.hair}" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-20 -38 Q-10 -44 0 -40" fill="none" stroke="#3a3350" stroke-width="2" stroke-linecap="round"/>`;
+  const sweat = `<path d="M38 -10 Q42 -2 38 2 Q34 -2 38 -10 Z" fill="#bae6fd" stroke="#38bdf8" stroke-width="1">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 6;0 0" keyTimes="0;0.6;0.9;1" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.85;1" dur="2.6s" repeatCount="indefinite"/></path>`;
   return `
-    <circle cx="-34" cy="6" r="7" fill="${P.skin}"/><circle cx="34" cy="6" r="7" fill="${P.skin}"/>
-    <ellipse cx="0" cy="0" rx="34" ry="40" fill="${P.skin}"/>
-    <path d="M-36 -4 Q-40 -48 0 -47 Q40 -48 36 -4 Q32 -28 10 -29 Q-8 -20 -36 -4 Z" fill="${P.hair}"/>
+    <circle cx="-33" cy="8" r="7" fill="${P.skin}"/><circle cx="33" cy="8" r="7" fill="${P.skin}"/>
+    <path d="M-33 -4 Q-34 30 -16 38 Q0 46 16 38 Q34 30 33 -4 Q30 -36 0 -38 Q-30 -36 -33 -4 Z" fill="${P.skin}"/>
+    ${hair}
+    ${sweat}
     <g>
       <rect x="-27" y="-37" width="23" height="13" rx="5" fill="#111827" stroke="${C.cyan}" stroke-width="1.4"/>
       <rect x="4" y="-37" width="23" height="13" rx="5" fill="#111827" stroke="${C.cyan}" stroke-width="1.4"/>
       <path d="M-4 -31 Q0 -34 4 -31" fill="none" stroke="${C.cyan}" stroke-width="1.4"/>
       <path d="M-22 -33 l5 0 M9 -33 l5 0" stroke="#7dd3fc" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
     </g>
-    <path d="M-18 -6 Q-12 -9 -6 -6 M6 -6 Q12 -9 18 -6" fill="none" stroke="${P.hair}" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M-22 -9 L-6 -7 M6 -7 L22 -9" fill="none" stroke="${P.hair}" stroke-width="3.2" stroke-linecap="round"/>
     ${eyeL}${eyeR}
-    <circle cx="-20" cy="16" r="5" fill="${C.pink}" opacity="0.35"/><circle cx="20" cy="16" r="5" fill="${C.pink}" opacity="0.35"/>
-    <path d="M-10 19 Q0 32 10 19 Z" fill="#5b1f1f" stroke="${P.ink}" stroke-width="2" stroke-linejoin="round"/>`;
+    <path d="M-26 20 l3 -5 M-21 20 l3 -5 M-16 20 l3 -5 M14 20 l3 -5 M19 20 l3 -5 M24 20 l3 -5" stroke="${C.pink}" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;0.95;0.5" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M-1 14 l2 4" stroke="${P.skinShade}" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M-8 25 Q0 33 8 25 Q0 28 -8 25 Z" fill="#5b1f1f" stroke="${P.ink}" stroke-width="1.8" stroke-linejoin="round"/>`;
 }
 
 function torso(bottom) {
   return `
-    <path d="M-46 -10 Q-52 40 -44 ${bottom > 120 ? 92 : 80} L44 ${bottom > 120 ? 92 : 80} Q52 40 46 -10 Z" fill="${P.hair}"/>
     <rect x="-11" y="30" width="22" height="24" fill="${P.skinShade}"/>
     <path d="M-62 ${bottom} L-62 112 Q-60 62 -22 52 L22 52 Q60 62 62 112 L62 ${bottom} Z" fill="${P.hoodie}"/>
     <path d="M-14 54 L0 80 L14 54 Z" fill="${P.tee}"/>
