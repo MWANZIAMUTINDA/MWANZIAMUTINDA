@@ -89,25 +89,6 @@ November 2026
   </picture></a>
 </p>
 
-## How I build M-Pesa payments
-
-A payment isn't done when the STK Push is sent. It's done when the money is matched to the right record, even if Safaricom's callback never comes.
-
-```mermaid
-flowchart LR
-    A["Customer picks a bundle<br/>and confirms the number"] --> B["Pending payment<br/>recorded"]
-    B --> C["STK Push sent<br/>to M-Pesa"]
-    C --> D["Customer<br/>enters PIN"]
-    D --> E{"Callback<br/>arrived?"}
-    E -- "Yes" --> F["Check the amount,<br/>mark paid, add credit once"]
-    E -- "No" --> G["STK status query"]
-    G --> F
-    F --> H["Receipt with a<br/>masked reference"]
-
-    classDef done stroke:#2da44e,stroke-width:2px
-    class F,H done
-```
-
 ## My year in numbers
 
 Most of my work is in private company repos, so these cards count private contributions too. They refresh every night.
