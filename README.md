@@ -167,9 +167,14 @@ Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pes
 
 ## Beyond code
 
+<img src="assets/anime/mikasa.png" alt="Mikasa Ackerman from Attack on Titan" width="100" align="right">
+
 - **Football.** I play, follow the tactics, and build tools for my club.
 - **Streetwear and sneakers.** Jordans and caps.
+- **Anime and manga.** My favourite character is Mikasa from *Attack on Titan*.
 - **Learning.** Distributed systems and AI agents.
+
+<br clear="right">
 
 ## Work with me
 
