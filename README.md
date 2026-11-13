@@ -1,23 +1,29 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/header-dark.svg">
-  <img src="assets/cards/header-light.svg" alt="Sylvester Mutinda. Full-stack engineer at Wakandi Kenya, in Nairobi: software for SACCOs, chamas, M-Pesa and credit." width="100%">
+  <img src="assets/cards/header-light.svg" alt="Sylvester Mutinda. Full-stack engineer at Wakandi Kenya, in Nairobi: software for SACCOs, chamas, M-Pesa and credit. Now shipping: CRB Lookup at Wakandi, M-Pesa top-ups for Jamii Connect, and SOKA." width="100%">
 </picture>
 
-Full-stack engineer at **Wakandi Kenya**, in Nairobi. I build software for the way money actually moves in Kenya: SACCOs, chamas and churches, M-Pesa, SMS, and the credit checks that come before a loan.
+<!-- live:stats -->
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/stats-dark.svg">
+    <img src="assets/cards/stats-light.svg" alt="662 contributions in the last 12 months, 62 pull requests merged of 66, current streak 4 days (longest 11), 501,906 lines added and 87,854 removed, 74 active days. Updated 13 Nov 2026." width="100%">
+  </picture>
+</p>
+<!-- /live:stats -->
 
-Next.js · Supabase · Laravel · Kotlin · PostgreSQL
+I build software for the way money actually moves in Kenya: SACCOs, chamas and churches, M-Pesa, SMS, and the credit checks that come before a loan. I'm an IT graduate of the **Technical University of Kenya** and work across the whole stack, from database schema and row-level security to the screens people use on a phone. I ship with tests: the Jamii platform I work on runs more than 2,000 of them on every change.
 
-## About me
-
-I'm an IT graduate of the **Technical University of Kenya**. I work across the whole stack, from database schema and row-level security to the screens people use on a phone, and I ship with tests: the Jamii platform I work on runs more than 2,000 of them on every change.
+**Next.js · Supabase · Laravel · Kotlin · PostgreSQL · M-Pesa Daraja**
 
 ## What I'm working on now
 
-October 2026
+November 2026
 
 - **CRB Lookup at Wakandi.** "Check before you lend" for SACCOs, MFIs and chamas: credit checks inside a loan application, results that expire, a full audit log, and an API that loan products call with keys.
 - **M-Pesa top-ups for Jamii Connect.** STK Push per bundle, confirming the number before the prompt, and recovering payments whose callback never arrived.
 - **Support chatbot and knowledge base.** A Brevo chat that onboards new customers, answering from a knowledge base written against the live app.
+- **SOKA, Sprint 1.** A league app for EA SPORTS FC friends: fair fixtures, results both players confirm, and live tables.
 
 ## Featured work
 
@@ -83,39 +89,43 @@ October 2026
   </picture></a>
 </p>
 
-## How I build M-Pesa payments
-
-A payment isn't done when the STK Push is sent. It's done when the money is matched to the right record, even if Safaricom's callback never comes.
-
-```mermaid
-flowchart LR
-    A["Customer picks a bundle<br/>and confirms the number"] --> B["Pending payment<br/>recorded"]
-    B --> C["STK Push sent<br/>to M-Pesa"]
-    C --> D["Customer<br/>enters PIN"]
-    D --> E{"Callback<br/>arrived?"}
-    E -- "Yes" --> F["Check the amount,<br/>mark paid, add credit once"]
-    E -- "No" --> G["STK status query"]
-    G --> F
-    F --> H["Receipt with a<br/>masked reference"]
-
-    classDef done stroke:#2da44e,stroke-width:2px
-    class F,H done
-```
-
 ## My year in numbers
 
-**Contributions per month in 2026.** Most of my work is in private company repos, so the public graph shows less than this.
+Most of my work is in private company repos, so these cards count private contributions too. They refresh every night.
 
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': '#2da44e'}}}}%%
-xychart-beta
-    title "GitHub contributions, 2026"
-    x-axis [Mar, Apr, May, Jun, Jul, Aug, Sep, Oct]
-    y-axis "Contributions" 0 --> 300
-    bar [9, 0, 0, 7, 43, 72, 150, 273]
-```
+<!-- live:year -->
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/skyline-dark.svg">
+    <img src="assets/cards/skyline-light.svg" alt="Contributions per day over the last 12 months, drawn as an isometric city. By month: Mar 9, Jun 7, Jul 43, Aug 72, Sept 150, Oct 292, Nov 89. Busiest month October with 292; best day 43 on 9 Oct 2026; longest streak 11 days." width="100%">
+  </picture>
+</p>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/lines-dark.svg">
+    <img src="assets/cards/lines-light.svg" alt="Lines changed in the last 12 months: 501,906 added, 87,854 removed." width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/achievements-dark.svg">
+    <img src="assets/cards/achievements-light.svg" alt="GitHub achievements: Quickdraw, Pair Extraordinaire, Pull Shark x2, YOLO." width="49%">
+  </picture>
+</p>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/languages-dark.svg">
+    <img src="assets/cards/languages-light.svg" alt="Languages, weighted by my commits: TypeScript 33.5%, Kotlin 25.3%, PHP 16.4%, Blade 12.2%, Python 5.6%, PLpgSQL 3.1%, CSS 2%, HTML 1%. Last 60 days: TypeScript 37%, Kotlin 32%, PHP 12%." width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/weekdays-dark.svg">
+    <img src="assets/cards/weekdays-light.svg" alt="Contributions by weekday: Mon 135, Tue 170, Wed 116, Thu 93, Fri 128, Sat 8, Sun 12." width="49%">
+  </picture>
+</p>
+<!-- /live:year -->
 
 Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pesa payments 13, chatbot and knowledge base 11, onboarding and referrals 5.
+
+<details>
+<summary><b>2026, month by month</b></summary>
 
 | 2026 | What happened |
 | --- | --- |
@@ -125,25 +135,12 @@ Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pes
 | August | Joined Wakandi Kenya; Kyeteni Pay with QR M-Pesa receipts |
 | September | SACCO Health Check, Nairobi garbage detection, Jamii M-Pesa top-ups and chatbot |
 | October | CRB Lookup shipped, Beijing FC Android app, Mandai, SOKA planned |
+| November | SOKA Sprint 1 |
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/stats-dark.svg">
-    <img src="assets/cards/stats-light.svg" alt="557 contributions in the last 12 months, 48 pull requests (46 merged), 21 repositories (7 private), 62 active days since March 2026, best day 43 on 9 October 2026." width="100%">
-  </picture>
-</p>
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/languages-dark.svg">
-    <img src="assets/cards/languages-light.svg" alt="Languages: Blade 27.7%, TypeScript 24.8%, PHP 19.4%, Kotlin 14.8%, Python 5.0%, PL/pgSQL 4.2%, CSS and JS 2.1%, HTML 1.9%." width="49%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/weekdays-dark.svg">
-    <img src="assets/cards/weekdays-light.svg" alt="Contributions by weekday: Monday 118, Tuesday 152, Wednesday 93, Thursday 59, Friday 121, Saturday 7, Sunday 7." width="49%">
-  </picture>
-</p>
+</details>
 
-## Tech stack
+<details>
+<summary><b>Tech stack</b></summary>
 
 | Area | Tools |
 | --- | --- |
@@ -154,7 +151,10 @@ Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pes
 | Delivery | Docker, Coolify, Vercel, Git and GitHub, Linux |
 | Working with | Figma, VS Code, Claude Code |
 
-## How I work
+</details>
+
+<details>
+<summary><b>How I work</b></summary>
 
 | Step | What it means |
 | --- | --- |
@@ -163,12 +163,27 @@ Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pes
 | **Small, tested steps** | Small pull requests, each one with tests, and row-level security checked in the database itself. |
 | **Ship and watch** | Deploy with Docker and Coolify, then check it works for real users. |
 
+</details>
+
 ## Beyond code
 
 - **Football.** I play, follow the tactics, and build tools for my club.
 - **Streetwear and sneakers.** Jordans and caps.
+- **Anime and manga.** Mikasa from *Attack on Titan* is my number one; the rest of my favourites are below.
 - **Learning.** Distributed systems and AI agents.
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/anime-dark.svg">
+    <img src="assets/cards/anime-light.svg" alt="Favourite anime characters: Mikasa Ackerman (Attack on Titan, number one), Asuka Langley (Evangelion), Erza Scarlet (Fairy Tail), Yamato (One Piece), Himiko Toga (My Hero Academia), Yuno Gasai (Future Diary), Shiro (Deadman Wonderland), Inori Yuzuriha (Guilty Crown), Saeko Busujima (Highschool of the Dead) and May (Pokémon)." width="100%">
+  </picture>
+</p>
 
 ## Work with me
 
-I'm open to full-stack, fintech and payments work, and applied AI projects. The fastest way to reach me is a message here on GitHub.
+<a href="mailto:smutinda301@gmail.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/contact-dark.svg">
+  <img src="assets/cards/contact-light.svg" alt="Let's build something. Open to full-stack, fintech and payments work, and applied AI. Email me at smutinda301@gmail.com." width="100%">
+</picture></a>
+
+Email [smutinda301@gmail.com](mailto:smutinda301@gmail.com), or message me here on GitHub.

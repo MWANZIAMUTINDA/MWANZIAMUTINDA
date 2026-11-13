@@ -1,0 +1,64 @@
+# Refreshes the profile cards every night: fetches live numbers from GitHub
+# (private repos included), redraws the cards, updates README.md, and commits
+# the result if anything changed.
+#
+# Needs one repository secret, PROFILE_TOKEN: a classic personal access token
+# from this account with the `repo`, `read:user` and `read:org` scopes. The
+# default GITHUB_TOKEN cannot see private contributions or other repos.
+
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "17 2 * * *" # 05:17 in Nairobi
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch live numbers
+        if: env.GH_TOKEN != ''
+        run: npm run stats
+
+      - name: Warn when the token is missing
+        if: env.GH_TOKEN == ''
+        run: echo "::warning::PROFILE_TOKEN is not set, so the cards are redrawn from the last saved numbers."
+
+      - name: Draw the cards
+        run: npm run cards
+
+      - name: Commit if anything changed
+        run: |
+          git add assets/cards data README.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile cards"
+          git push
