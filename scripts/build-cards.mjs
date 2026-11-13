@@ -725,7 +725,7 @@ function animeCard(t) {
     const lead = i === 0;
     defs.push(`<clipPath id="a${i}"><rect x="${x}" y="${y}" width="${pw}" height="${ph}" rx="8"/></clipPath>`);
     return `  <g class="p" style="animation-delay:${i * 50}ms">
-    <image href="data:image/${type};base64,${data}" x="${x}" y="${y}" width="${pw}" height="${ph}" preserveAspectRatio="xMidYMid slice" clip-path="url(#a${i})"/>
+    <image href="data:image/${type};base64,${data}" x="${x}" y="${y}" width="${pw}" height="${ph}" preserveAspectRatio="xMidYMid slice" clip-path="url(#a${i})" filter="url(#bw)"/>
     <rect x="${x + 0.5}" y="${y + 0.5}" width="${pw - 1}" height="${ph - 1}" rx="8" fill="none" stroke="${lead ? t.accent : t.border}" stroke-width="${lead ? 2 : 1}"/>${
       lead
         ? `\n    <rect x="${x + 6}" y="${y + 6}" width="36" height="18" rx="9" fill="${t.accent}"/>\n    <text x="${x + 24}" y="${y + 19}" text-anchor="middle" font-size="10.5" ${MONO} fill="${t.onAccent}">No.1</text>`
@@ -736,7 +736,7 @@ function animeCard(t) {
   </g>`;
   }).join("\n");
   const body = `${heading(t, w, "Favourite characters", "Anime and manga")}
-  <defs>${defs.join("")}</defs>
+  <defs><filter id="bw" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values="0"/></filter>${defs.join("")}</defs>
 ${cells}`;
   return frame(t, w, h, "Favourite characters", body, css + REDUCED);
 }
