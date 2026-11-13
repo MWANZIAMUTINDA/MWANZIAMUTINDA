@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "stats": "node scripts/fetch-stats.mjs",
     "cards": "node scripts/build-cards.mjs"
   },
   "devDependencies": {
