@@ -686,6 +686,61 @@ ${bars}`;
   return frame(t, w, h, "When I ship", body, css + REDUCED);
 }
 
+// ---------------------------------------------------------------- anime
+
+// Favourite characters, in order; the first is marked as number one.
+// Portraits live in assets/anime/ and are embedded in the card.
+const ANIME = [
+  ["mikasa.png", "Mikasa Ackerman", "Attack on Titan"],
+  ["asuka.png", "Asuka Langley", "Evangelion"],
+  ["erza.jpg", "Erza Scarlet", "Fairy Tail"],
+  ["yamato.png", "Yamato", "One Piece"],
+  ["toga.png", "Himiko Toga", "My Hero Academia"],
+  ["yuno.png", "Yuno Gasai", "Future Diary"],
+  ["shiro.jpg", "Shiro", "Deadman Wonderland"],
+  ["inori.png", "Inori Yuzuriha", "Guilty Crown"],
+  ["saeko.png", "Saeko Busujima", "Highschool of the Dead"],
+  ["may.png", "May", "Pokémon"],
+];
+
+/** Two rows of portraits with name and series, like a shelf of cards. */
+function animeCard(t) {
+  const w = 860;
+  const perRow = 5;
+  const rows = Math.ceil(ANIME.length / perRow);
+  const col = (w - 48) / perRow;
+  const pw = 92;
+  const ph = 138;
+  const rowH = ph + 58;
+  const top = 62;
+  const h = top + rows * rowH + 6;
+  const css = `.p{animation:up .7s cubic-bezier(.2,.7,.2,1) both}@keyframes up{from{opacity:0;transform:translateY(8px)}}`;
+  const defs = [];
+  const cells = ANIME.map(([file, name, series], i) => {
+    const cx = 24 + (i % perRow) * col + col / 2;
+    const y = top + Math.floor(i / perRow) * rowH;
+    const x = cx - pw / 2;
+    const type = file.endsWith(".png") ? "png" : "jpeg";
+    const data = readFileSync(`assets/anime/${file}`).toString("base64");
+    const lead = i === 0;
+    defs.push(`<clipPath id="a${i}"><rect x="${x}" y="${y}" width="${pw}" height="${ph}" rx="8"/></clipPath>`);
+    return `  <g class="p" style="animation-delay:${i * 50}ms">
+    <image href="data:image/${type};base64,${data}" x="${x}" y="${y}" width="${pw}" height="${ph}" preserveAspectRatio="xMidYMid slice" clip-path="url(#a${i})"/>
+    <rect x="${x + 0.5}" y="${y + 0.5}" width="${pw - 1}" height="${ph - 1}" rx="8" fill="none" stroke="${lead ? t.accent : t.border}" stroke-width="${lead ? 2 : 1}"/>${
+      lead
+        ? `\n    <rect x="${x + 6}" y="${y + 6}" width="36" height="18" rx="9" fill="${t.accent}"/>\n    <text x="${x + 24}" y="${y + 19}" text-anchor="middle" font-size="10.5" ${MONO} fill="${t.onAccent}">No.1</text>`
+        : ""
+    }
+    <text x="${cx}" y="${y + ph + 22}" text-anchor="middle" font-size="15" ${SERIF} fill="${t.text}">${esc(name)}</text>
+    <text x="${cx}" y="${y + ph + 39}" text-anchor="middle" font-size="11" fill="${t.muted}">${esc(series)}</text>
+  </g>`;
+  }).join("\n");
+  const body = `${heading(t, w, "Favourite characters", "Anime and manga")}
+  <defs>${defs.join("")}</defs>
+${cells}`;
+  return frame(t, w, h, "Favourite characters", body, css + REDUCED);
+}
+
 // ---------------------------------------------------------------- contact
 
 function contactCard(t) {
@@ -714,6 +769,7 @@ for (const [theme, t] of Object.entries(THEMES)) {
   add("achievements", achievementsCard(t));
   add("languages", languagesCard(t));
   add("weekdays", weekdaysCard(t));
+  add("anime", animeCard(t));
   add("contact", contactCard(t));
 }
 

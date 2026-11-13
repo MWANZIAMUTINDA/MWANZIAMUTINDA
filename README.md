@@ -167,14 +167,17 @@ Where my Jamii commits went from September to October 2026: CRB Lookup 19, M-Pes
 
 ## Beyond code
 
-<img src="assets/anime/mikasa.png" alt="Mikasa Ackerman from Attack on Titan" width="100" align="right">
-
 - **Football.** I play, follow the tactics, and build tools for my club.
 - **Streetwear and sneakers.** Jordans and caps.
-- **Anime and manga.** My favourite character is Mikasa from *Attack on Titan*.
+- **Anime and manga.** Mikasa from *Attack on Titan* is my number one; the rest of my favourites are below.
 - **Learning.** Distributed systems and AI agents.
 
-<br clear="right">
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/anime-dark.svg">
+    <img src="assets/cards/anime-light.svg" alt="Favourite anime characters: Mikasa Ackerman (Attack on Titan, number one), Asuka Langley (Evangelion), Erza Scarlet (Fairy Tail), Yamato (One Piece), Himiko Toga (My Hero Academia), Yuno Gasai (Future Diary), Shiro (Deadman Wonderland), Inori Yuzuriha (Guilty Crown), Saeko Busujima (Highschool of the Dead) and May (Pokémon)." width="100%">
+  </picture>
+</p>
 
 ## Work with me
 
